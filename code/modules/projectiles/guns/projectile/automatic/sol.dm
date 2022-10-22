@@ -1,6 +1,6 @@
 /obj/item/gun/projectile/automatic/sol
-	name = "\improper FS CAR .25 CS \"Sol\""
-	desc = "A standard-issue weapon used by Aegis operatives. Compact and reliable. Uses .25 Caseless rounds."
+	name = "FS CAR .25 CS \"Sol\""
+	desc = "A standard-issue weapon used by Ironhammer operatives. Compact and reliable. Uses .25 Caseless rounds."
 	icon = 'icons/obj/guns/projectile/sol.dmi'
 	icon_state = "sol"
 	item_state = "sol"
@@ -50,7 +50,7 @@
 
 /obj/item/part/gun/frame/sol
 	name = "Sol frame"
-	desc = "A Sol carbine frame. Aegis's favorite."
+	desc = "A Sol carbine frame. Ironhammer's favorite."
 	icon_state = "frame_ihbullpup"
 	result = /obj/item/gun/projectile/automatic/sol
 	grip = /obj/item/part/gun/grip/rubber

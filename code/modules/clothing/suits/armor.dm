@@ -589,7 +589,7 @@
 	stiffness = HEAVY_STIFFNESS
 
 /obj/item/clothing/suit/armor/paramedic
-	name = "Lazarus paramedic armor"
+	name = "Moebius Medical paramedic armor" //Chaosstation edit - Moebius
 	desc = "Seven minutes or a refund."
 	icon_state = "trauma_team"
 	item_state = "trauma_team"

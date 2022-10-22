@@ -229,7 +229,7 @@
 	obscuration = MEDIUM_OBSCURATION
 
 /obj/item/clothing/suit/space/void/security
-	name = "aegis voidsuit"
+	name = "Ironhammer Security voidsuit"
 	icon_state = "ihvoidsuit"
 	desc = "A bulky suit that protects against hazardous, low pressure environments. Sacrifices mobility for protection."
 	item_state = "ihvoidsuit"
@@ -290,7 +290,7 @@
 
 //Science
 /obj/item/clothing/head/space/void/science
-	name = "Lazarus Combat Helmet"
+	name = "Moebius MedSci Combat Helmet"
 	desc = "A special helmet designed for work in a hazardous, low pressure environment. Has an additional layer of armor."
 	icon_state = "moebiushelmb"
 	item_state = "moebiushelmb"
@@ -346,9 +346,9 @@
 	usr.update_action_buttons()
 
 /obj/item/clothing/suit/space/void/science
-	name = "\improper Lazarus combat voidsuit"
+	name = "\improper Moebius MedSci combat voidsuit"
 	icon_state = "moebiussuit"
-	desc = "A heavy space suit designed by Lazarus personnel for work in hazardous environment. Features several advanced layers of armor."
+	desc = "A heavy space suit designed by Moebius personnel for work in hazardous environment. Features several advanced layers of armor."
 	item_state = "moebiussuit"
 	matter = list(
 	MATERIAL_PLASTEEL = 15,
@@ -430,8 +430,8 @@
 //NT
 
 /obj/item/clothing/head/space/void/NTvoid
-	name = "mekhanite voidsuit helmet"
-	desc = "A voidsuit helmet designed by Children of the Mekhane with a most holy mix of biomatter and inorganic matter."
+	name = "NeoTheology voidsuit helmet"
+	desc = "A voidsuit helmet designed by the Church of NeoTheology with a holy mix of biomatter and inorganic matter."
 	icon_state = "ntvoidhelmet"
 	item_state = "ntvoidhelmet"
 	action_button_name = "Toggle Helmet Light"
@@ -449,8 +449,8 @@
 	light_overlay = "helmet_light"
 
 /obj/item/clothing/suit/space/void/NTvoid
-	name = "mekhanite voidsuit"
-	desc = "A voidsuit designed by Mekhane with a most holy mix of biomatter and inorganic matter."
+	name = "NeoTheology voidsuit"
+	desc = "A voidsuit designed by the Church of NeoTheology with a holy mix of biomatter and inorganic matter."
 	icon_state = "ntvoid"
 	item_state = "ntvoid"
 	matter = list(MATERIAL_PLASTEEL = 8, MATERIAL_STEEL = 10, MATERIAL_BIOMATTER = 35)

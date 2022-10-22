@@ -1,19 +1,19 @@
 /datum/job/cmo
-	title = "Chief Medical Officer"
+	title = "Moebius Medical Officer"
 	flag = CMO
 	head_position = 1
 	department = DEPARTMENT_MEDICAL
 	department_flag = MEDICAL | COMMAND
-	faction = "NEV Northern Light"
+	faction = "CEV Eris"
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "Lazarus Foundation"
+	supervisors = "Moebius Medical"
 	selection_color = "#94a87f"
 	req_admin_notify = 1
 	wage = WAGE_COMMAND
 	outfit_type = /decl/hierarchy/outfit/job/medical/cmo
 
-	wl_config_heads = TRUE		//Eclipse edit.
+//	wl_config_heads = TRUE		//Eclipse edit.
 
 	access = list(
 		access_moebius, access_medical_equip, access_morgue, access_genetics, access_heads,
@@ -38,10 +38,10 @@
 							 /datum/computer_file/program/chem_catalog,
 							 /datum/computer_file/program/reports)
 
-	description = "You are the head of the Medical Bay on the NEV Northern Light and provide medical services to the crew.<br>\
+	description = "You are the head of the Medical Bay on the CEV Eris and provide medical services to the crew.<br>\
 You are here to keep everyone alive and ideally, at work. You should make choices that preserve life as much as possible.<br>\
 
-The handling of the medbay is your domain, although remember that both medical and science are branches of Lazarus Foundation, so your colleagues have free access to your resources, and vice versa"
+The handling of the medbay is your domain, although remember that both medical and science are branches of Moebius MedSci, so your colleagues have free access to your resources, and vice versa"
 
 	duties = "Organise the doctors under your command to help save lives. Assign patients, and check on their progress periodically<br>\
 Dispatch your paramedics to distress calls, and corpse recoveries as needed<br>\
@@ -52,10 +52,10 @@ In times of crisis, lock down the medbay to protect those within, from outside t
 
 	loyalties = "As a doctor, your first loyalty is to your conscience. You swore an oath to save lives and do no harm. It falls on you to be the ethical and moral core of the crew. You should speak up for prisoners, captured lifeforms, and test subjects. Nobody else will.<br>\
 
-Your second loyalty is to your career with Lazarus, and to your coworkers in both Medical and Research. Help out your scientific colleagues, and aid in their pursuit of knowledge."
+Your second loyalty is to your career with Moebius, and to your coworkers in both Medical and Research. Help out your scientific colleagues, and aid in their pursuit of knowledge."
 
 /obj/landmark/join/start/cmo
-	name = "Chief Medical Officer"
+	name = "Moebius Medical Officer"
 	icon_state = "player-green-officer"
 	join_tag = /datum/job/cmo
 
@@ -65,10 +65,10 @@ Your second loyalty is to your career with Lazarus, and to your coworkers in bot
 	flag = DOCTOR
 	department = DEPARTMENT_MEDICAL
 	department_flag = MEDICAL
-	faction = "NEV Northern Light"
+	faction = "CEV Eris"
 	total_positions = 5
 	spawn_positions = 5
-	supervisors = "the Chief Medical Officer"
+	supervisors = "the Moebius Medical Officer"
 	selection_color = "#a8b69a"
 	wage = WAGE_PROFESSIONAL
 	alt_titles = list("Surgeon", "Nurse", "Medical Intern")
@@ -91,7 +91,7 @@ Your second loyalty is to your career with Lazarus, and to your coworkers in bot
 							/datum/computer_file/program/camera_monitor)
 
 
-	description = "You are a highly educated professional doctor, working a placement aboard the NEV Northern Light to treat the injured.<br>\
+	description = "You are a highly educated professional doctor, working a placement aboard the CEV Eris to treat the injured.<br>\
 Your tasks will primarily keep you inside medbay, the place needs to have a doctor onsite at all times to treat incoming wounded. As a general rule, you should not leave medbay if you're the only one in it, make sure someone is covering for you if you go elsewhere.<br>\
 
 As a doctor, a broad range of medical procedures fall under your potential purview. You are not expected to be able to perform all of these yourself, being a specialist is fine. <br>\
@@ -111,7 +111,7 @@ You are expected to be knowledgeable and competent in at least basic treatment, 
 
 	loyalties = "As a doctor, your first loyalty is to your conscience. You swore an oath to save lives and do no harm. It falls on you to be the ethical and moral core of the crew. You should speak up for prisoners, captured lifeforms, and test subjects. Nobody else will.<br>\
 
-Your second loyalty is to your career with Lazarus, and to your coworkers in both Medical and Research. Help out your scientific colleagues, and aid in their pursuit of knowledge."
+Your second loyalty is to your career with Moebius, and to your coworkers in both Medical and Research. Help out your scientific colleagues, and aid in their pursuit of knowledge."
 
 /obj/landmark/join/start/doctor
 	name = "Medical Doctor"
@@ -125,10 +125,10 @@ Your second loyalty is to your career with Lazarus, and to your coworkers in bot
 	flag = CHEMIST
 	department = DEPARTMENT_MEDICAL
 	department_flag = MEDICAL
-	faction = "NEV Northern Light"
+	faction = "CEV Eris"
 	total_positions = 2
 	spawn_positions = 2
-	supervisors = "the Chief Medical Officer"
+	supervisors = "the Moebius Medical Officer"
 	selection_color = "#a8b69a"
 	wage = WAGE_PROFESSIONAL
 	outfit_type = /decl/hierarchy/outfit/job/medical/chemist
@@ -152,17 +152,17 @@ Your second loyalty is to your career with Lazarus, and to your coworkers in bot
 	<br>\
 	Your primary responsibility is working as a pharmacist. Prepare medicines for use by the medical staff, so that they can capably treat a broad variety of conditions. It's good to keep a stock of bicaridine, dexalin, peridaxon, and alkysine.<br>\
 	<br>\
-	Your secondary responsibility is as a chemical manufacturer for Lazarus generally. You may be requested to make non-medical chemicals for your colleagues in science, or even for other medical staff. Anyone within moebius should be freely and quickly provided with anything they request. Don't question why, it's above your paygrade.<br>\
+	Your secondary responsibility is as a chemical manufacturer for Moebius generally. You may be requested to make non-medical chemicals for your colleagues in science, or even for other medical staff. Anyone within moebius should be freely and quickly provided with anything they request. Don't question why, it's above your paygrade.<br>\
 	<br>\
-	Your third duty is to run a chemical sales outlet. You may get requests from other crewmembers to make acid, chemical grenades, smoke, cleaning products, napalm, or perhaps even just to make medicines. You are fully licensed to sell any and all chemicals to those outside moebius. Sell being the operative word here. If someone isn't an employee of Moebius corp, charge them for their chemicals.<br>\
+	Your third duty is to run a chemical sales outlet. You may get requests from other crewmembers to make acid, chemical grenades, smoke, cleaning products, napalm, or perhaps even just to make medicines. You are fully licensed to sell any and all chemicals to those outside moebius. Sell being the operative word here. If someone isn't an employee of Moebius MedSci, charge them for their chemicals.<br>\
 	<br>\
 	Its worth noting that you don't always have everything you need on hand. Some recipes will require external ingredients. Bicaridine, most notably, requires the roach toxin blattedin, so you should gather up roach corpses to hack apart for their chemicals. Pay assistants to do this if necessary"
 
 	duties = "		Mix medicines for doctors<br>\
-		Fill chemical requests for Lazarus staff<br>\
+		Fill chemical requests for Moebius staff<br>\
 		Sell chemicals and chem grenades to outsiders"
 
-	loyalties = "Your loyalty is to your career with Lazarus Foundation, and to your coworkers in both branches of Lazarus. Help out your scientific colleagues, and aid in their pursuit of knowledge."
+	loyalties = "Your loyalty is to your career with Moebius MedSci, and to your coworkers in both branches of Moebius. Help out your scientific colleagues, and aid in their pursuit of knowledge."
 
 
 /obj/landmark/join/start/chemist
@@ -176,11 +176,11 @@ Your second loyalty is to your career with Lazarus, and to your coworkers in bot
 	flag = PSYCHIATRIST
 	department = DEPARTMENT_MEDICAL
 	department_flag = MEDICAL
-	faction = "NEV Northern Light"
+	faction = "CEV Eris"
 	total_positions = 1
 	spawn_positions = 1
 	wage = WAGE_PROFESSIONAL
-	supervisors = "the Chief Medical Officer"
+	supervisors = "the Moebius Medical Officer"
 	selection_color = "#a8b69a"
 	outfit_type = /decl/hierarchy/outfit/job/medical/psychiatrist
 
@@ -212,10 +212,10 @@ Your second loyalty is to your career with Lazarus, and to your coworkers in bot
 	flag = PARAMEDIC
 	department = DEPARTMENT_MEDICAL
 	department_flag = MEDICAL
-	faction = "NEV Northern Light"
+	faction = "CEV Eris"
 	total_positions = 3
 	spawn_positions = 3
-	supervisors = "the Chief Medical Officer"
+	supervisors = "the Moebius Medical Officer"
 	selection_color = "#a8b69a"
 	wage = WAGE_LABOUR_HAZARD
 	outfit_type = /decl/hierarchy/outfit/job/medical/paramedic
@@ -237,7 +237,7 @@ Your second loyalty is to your career with Lazarus, and to your coworkers in bot
 							/datum/computer_file/program/chem_catalog,
 							 /datum/computer_file/program/camera_monitor)
 
-	description = "You are a Lazarus Paramedic, The hero of the hour! While doctors largely spend their time cloistered away in medbay, your job is to be out there on the frontlines. You work in the field, sometimes treating people on the spot, sometimes bringing them back to medical for specialist treatment. <br>\
+	description = "You are a Moebius Paramedic, The hero of the hour! While doctors largely spend their time cloistered away in medbay, your job is to be out there on the frontlines. You work in the field, sometimes treating people on the spot, sometimes bringing them back to medical for specialist treatment. <br>\
 
 You have significant medical training, but typically you are not a doctor, and will most likely lack a medical degree. The actual doctors have seniority, and you should follow their orders, especially concerning treatment and diagnosis of a patient<br>\
 <br>\

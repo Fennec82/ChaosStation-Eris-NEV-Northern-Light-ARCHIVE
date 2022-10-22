@@ -32,7 +32,8 @@
 	image_file = 'icons/title_screens/ironhammer.png'
 	possibleMusic = list(
 		'sound/music/lobby/Duke_Gneiss-The_Runner_in_motion.ogg',
-		'sound/music/lobby/Duke_Gneiss-Metropolis.ogg'
+		'sound/music/lobby/Duke_Gneiss-Metropolis.ogg',
+		'sound/music/lobby/Duke_Gneiss-Exploring.ogg' //Chaos edit - Exploring for IH
 		)
 
 /datum/lobbyscreen/onestar

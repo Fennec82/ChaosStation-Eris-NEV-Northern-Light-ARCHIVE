@@ -162,8 +162,8 @@
 	)
 
 /obj/item/clothing/suit/storage/neotheosports
-	name = "Mekhane sports jacket"
-	desc = "Mekhane styled sports jacket to keep the faithful always on their feet."
+	name = "NeoTheology sports jacket"
+	desc = "NeoTheology styled sports jacket to keep the faithful always on their feet."
 	icon_state = "nt_sportsjacket"
 	item_state = "nt_sportsjacket"
 	body_parts_covered = UPPER_TORSO|ARMS
@@ -262,7 +262,7 @@
 
 //Chief Engineer/Technomancer Exultant
 /obj/item/clothing/suit/storage/te_coat
-	name = "chief engineer coat"
+	name = "Technomancer Exultant coat"
 	desc = "A sturdy and proud crimson coat. Lightly armored, with some protection against radiation."
 	icon_state = "te_coat"
 	item_state = "te_coat"

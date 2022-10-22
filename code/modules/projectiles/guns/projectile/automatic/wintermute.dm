@@ -61,8 +61,8 @@
 	update_icon()
 
 /obj/item/part/gun/frame/wintermute
-	name = "\improper Wintermute frame"
-	desc = "A Wintermute assault rifle frame. The finest of the Aegis lineup."
+	name = "Wintermute frame"
+	desc = "A Wintermute assault rifle frame. The finest of the Ironhammer lineup."
 	icon_state = "frame_wintermute"
 	result = /obj/item/gun/projectile/automatic/wintermute
 	grip = /obj/item/part/gun/grip/rubber

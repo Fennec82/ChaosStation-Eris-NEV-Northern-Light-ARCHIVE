@@ -7,7 +7,7 @@
 	flag = CLUBMANAGER
 	department = DEPARTMENT_CIVILIAN
 	department_flag = SERVICE
-	faction = "NEV Northern Light"
+	faction = "CEV Eris"
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "the First Officer"
@@ -44,7 +44,7 @@
 	flag = CLUBWORKER
 	department = DEPARTMENT_CIVILIAN
 	department_flag = SERVICE
-	faction = "NEV Northern Light"
+	faction = "CEV Eris"
 	total_positions = 2
 	spawn_positions = 2
 	supervisors = "the Club Manager"

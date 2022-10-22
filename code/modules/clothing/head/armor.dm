@@ -560,7 +560,7 @@
 	icon_state = "tanker_helmet_gray"
 
 /obj/item/clothing/head/armor/faceshield/paramedic
-	name = "Lazarus paramedic helmet"
+	name = "Moebius Medical paramedic helmet"
 	desc = "Seven minutes or a refund."
 	icon_state = "trauma_team"
 	item_state = "trauma_team"

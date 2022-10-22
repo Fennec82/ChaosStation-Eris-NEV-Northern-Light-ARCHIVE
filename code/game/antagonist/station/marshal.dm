@@ -1,7 +1,7 @@
 /datum/antagonist/marshal
 	id = ROLE_MARSHAL
-	role_text = "Aegis Bounty Hunter"
-	role_text_plural = "Aegis Bounty Hunters"
+	role_text = "Ironhammer Marshal"
+	role_text_plural = "Ironhammer Marshals"
 	bantype = ROLE_BANTYPE_CREW_SIDED
 	protected_jobs = list(JOBS_COMMAND, JOBS_SECURITY)
 	antaghud_indicator = "huddeathsquad"
@@ -17,12 +17,12 @@
 		STAT_VIG = 15
 	)
 
-	welcome_text = "You are a civilian contractor who has been hired in secret by Aegis to apprehend a fugitive that they\
+	welcome_text = "You are a civilian contractor who has been hired in secret by Ironhammer to apprehend a fugitive that they\
 aren’t able to pursue openly. You know that one of the crew aboard this vessel is your prey, but not\
 which one. \n\n\
 Identify the fugitive, and apprehend them. Dead or alive doesn’t matter, but quietly is non-negotiable.\
-Local Aegis on ship might assist your mission by turning a blind eye to your work, or even help you\
-quietly, but you are not an Aegis employee. If you are caught by the public, they will disavow any\
+Local Ironhammer on ship might assist your mission by turning a blind eye to your work, or even help you\
+quietly, but you are not an Ironhammer employee. If you are caught by the public, they will disavow any\
 knowledge of you."
 
 /datum/antagonist/marshal/can_become_antag(datum/mind/M)

@@ -1,20 +1,20 @@
 /datum/job/chief_engineer
-	title = "Chief Engineer"
+	title = "Technomancer Exultant"
 	flag = EXULTANT
 	head_position = 1
 	department = DEPARTMENT_ENGINEERING
 	department_flag = ENGINEERING | COMMAND
-	faction = "NEV Northern Light"
+	faction = "CEV Eris"
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the Captain and NanoTrasen"
+	supervisors = "the Captain and Technomancer League"
 	selection_color = "#c7b97b"
 	req_admin_notify = 1
 	also_known_languages = list(LANGUAGE_CYRILLIC = 100)
 	wage = WAGE_COMMAND
 	ideal_character_age = 50
 
-	wl_config_heads = TRUE		//Eclipse edit.
+//	wl_config_heads = TRUE		//Eclipse edit.
 //	alt_titles = list()
 
 	outfit_type = /decl/hierarchy/outfit/job/engineering/exultant
@@ -47,27 +47,27 @@
 	description = "You are the Chief Engineer, the head of the ship's maintenance crew. You and your crew work on the Northern Light, it is your work, and your pride. <br>\
 You are to keep the ship running and constantly improve it as much as you are able. Let none question the efficacy of your labours."
 
-	loyalties = "Your first loyalty is to NanoTrasen. The engineering department is your territory, and machinery across the ship are your responsibility. Do not tolerate others interfering with them, intruding on your space, or questioning your competence. You don't need inspections, oversight or micromanagement. Outsiders should only enter your spaces by invitation, or out of necessity. Even the captain and other command staff are no exception.<br>\
+	loyalties = "Your first loyalty is to Command. The engineering department is your territory, and machinery across the ship are your responsibility. Do not tolerate others interfering with them, intruding on your space, or questioning your competence. You don't need inspections, oversight or micromanagement. Outsiders should only enter your spaces by invitation, or out of necessity. Even the captain and other command staff are no exception.<br>\
 
 Your second loyalty is to your workers. Ensure they are paid, fed and safe. Don't risk their lives unnecessarily. If an area is infested with monsters, there's no reason to risk lives trying to repair anything inside there. If one of your people is imprisoned, endangered or accused, you should fight for them. Treat every engineer like your family"
 
 	perks = list(/datum/perk/inspiration)
 
 /obj/landmark/join/start/chief_engineer
-	name = "Chief Engineer"
+	name = "Technomancer Exultant"
 	icon_state = "player-orange-officer"
 	join_tag = /datum/job/chief_engineer
 
 
 /datum/job/technomancer
-	title = "Ship Engineer"
+	title = "Technomancer"
 	flag = TECHNOMANCER
 	department = DEPARTMENT_ENGINEERING
 	department_flag = ENGINEERING
-	faction = "NEV Northern Light"
+	faction = "CEV Eris"
 	total_positions = 5
 	spawn_positions = 5
-	supervisors = "the Chief Engineer"
+	supervisors = "the Technomancer Exultant"
 	selection_color = "#d5c88f"
 	also_known_languages = list(LANGUAGE_CYRILLIC = 100)
 	wage = WAGE_PROFESSIONAL
@@ -125,6 +125,6 @@ The Northern Light is your home, your life, and your livelihood. Take pride in i
 	perks = list(/datum/perk/inspiration)
 
 /obj/landmark/join/start/technomancer
-	name = "Engineer"
+	name = "Technomancer"
 	icon_state = "player-orange"
 	join_tag = /datum/job/technomancer

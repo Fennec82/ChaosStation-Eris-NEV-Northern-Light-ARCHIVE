@@ -1,3 +1,4 @@
+//Chaosstation change - Aegis to Ironhammer
 /obj/structure/closet/secure_closet/reinforced/captains
 	name = "captain's locker"
 	req_access = list(access_captain)
@@ -56,7 +57,7 @@
 	new /obj/item/storage/pouch/pistol_holster(src)
 
 /obj/structure/closet/secure_closet/reinforced/hos
-	name = "Aegis Commander locker"
+	name = "Ironhammer Commander locker"
 	req_access = list(access_hos)
 	icon_state = "hos"
 
@@ -137,7 +138,7 @@
 	new /obj/item/clothing/suit/storage/vest(src)
 	new /obj/item/stamp/gs(src)
 /obj/structure/closet/secure_closet/personal/security
-	name = "Aegis Operative locker"
+	name = "Ironhammer Operative locker"
 	req_access = list(access_hos)
 	access_occupy = list(access_brig)
 	icon_state = "sec"
@@ -172,7 +173,7 @@
 	new /obj/item/storage/ration_pack/ihr(src)
 
 /obj/structure/closet/secure_closet/medspec
-	name = "Aegis Medical Specialist locker"
+	name = "Ironhammer Medical Specialist locker"
 	req_access = list(access_medspec)
 	icon_state = "sec"
 
@@ -196,7 +197,7 @@
 	new /obj/item/storage/briefcase/crimekit(src)
 
 /obj/structure/closet/secure_closet/detective
-	name = "Aegis Inspector locker"
+	name = "Ironhammer Inspector locker"
 	req_access = list(access_forensics_lockers)
 	icon_state = "cabinetdetective"
 

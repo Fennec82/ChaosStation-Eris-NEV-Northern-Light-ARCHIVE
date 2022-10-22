@@ -3,7 +3,7 @@
 	flag = ASSISTANT
 	department = DEPARTMENT_CIVILIAN
 	department_flag = CIVILIAN
-	faction = "NEV Northern Light"
+	faction = "CEV Eris"
 	total_positions = -1
 	spawn_positions = -1
 	supervisors = "anyone who pays you"
@@ -25,16 +25,16 @@
 
 
 	description = "There are two potential lives before you, and you must choose wisely.<br>\
-In one, you are a vagabond, journeying through the vast expanses of space upon the NEV Northern Light. You will not be paid a wage.<br>\
+In one, you are a vagabond, journeying through the vast expanses of space upon the CEV Eris. You will not be paid a wage.<br>\
 Though this does not mean you have no home, as the Northern Light is your home. Whatever planet you may have came from a now distant memory.<br>\
-You remember boarding the Northern Light sometime in your past, when it had a different purpose and a different captain.<br>\
+You remember boarding the Eris sometime in your past, when it had a different purpose and a different captain.<br>\
 Over time you've become accustomed to the dangers of this ship.<br>\
 The ID you wear likely not even your own. At least as far as you can remember.<br>\
 But this chunk of plastic still can be a rare oddity, that can change your character.<br>\
 As a vagabond, you should strive to help out anyone you can. Or at least, anyone who offers you a paying job. Find a way to make money, stay out of trouble, and survive.<br>\
-You can do anything, or be anyone. To be a Vagabond is to be free. Be wary of those that would take this freedom, for not all of the crew are your friends. You can trust in the Church of Mekhane to look out for you, but they are not all powerful.<br>\
+You can do anything, or be anyone. To be a Vagabond is to be free. Be wary of those that would take this freedom, for not all of the crew are your friends. You can trust in the Church of NeoTheology to look out for you, but they are not all powerful.<br>\
 <br>\
-In another, you are an intern. In the rush to escape SolGov bureaucracy, NanoTrasen hired on as many laborers and crewmen as they could. Some of them adapted to maintenance life, but others still set out to better themselves.<br>\
+In another, you are an intern. In the rush to escape SolGov bureaucracy, the Captian hired on as many laborers and crewmen as they could. Some of them adapted to maintenance life, but others still set out to better themselves.<br>\
 Not all of those laborers and crewman were qualified for the journey ahead. You are untrained or uncertified, and unpaid, but unlike vagabonds you have a chance.<br>\
 The crew are dismissive of interns, but not unfriendly. You, unlike vagabonds, seek to insert yourselves into the established order in any way you can. Order, above all else, will keep this ship flying, and you understand that.<br>\
 Thus, you seek guidance and training from one of the corporate departments on ship. You have many options to choose from, and not all of them may be willing to take you. Only you can prove yourself worthy."

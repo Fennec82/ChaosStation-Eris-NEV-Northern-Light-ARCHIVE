@@ -1,11 +1,11 @@
 /datum/category_item/setup_option/core_implant/cruciform
-	name = "Mekhanite Cruciform"
+	name = "NeoTheology Cruciform" //ChaosStation Change - NeoTheology
 	desc = "Deus Ex Anima. A marvelous confection of modern technology, the Cruciform <br>\
 	allows a faithful acolyte to retain their mind in soul even in death.<br>\
 	Signifies your dedication and loyalty to Children of The Mekhane."
 	implant_type = /obj/item/implant/core_implant/cruciform
-	restricted_depts = IRONHAMMER | COMMAND | MEDICAL | SCIENCE
-	allowed_depts = CHURCH
+	restricted_depts = IRONHAMMER | MEDICAL | SCIENCE //Chaos edit - NeoTheology Cruciform changed to allow for command access, because the preacher and [REDACTED] also have the command flag
+	allowed_depts = CHURCH | COMMAND
 	allow_modifications = TRUE
 
 /datum/category_item/setup_option/core_implant/cruciform/apply(mob/living/carbon/human/character)

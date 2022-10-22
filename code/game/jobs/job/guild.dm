@@ -1,12 +1,12 @@
 //Cargo
 /datum/job/merchant
-	title = "Free Trade Union Merchant"
+	title = "Aster's Guild Merchant"
 	flag = MERCHANT
 	department = DEPARTMENT_GUILD
 	head_position = TRUE
 	aster_guild_member = TRUE
 	department_flag = GUILD | COMMAND
-	faction = "NEV Northern Light"
+	faction = "CEV Eris"
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "your greed"
@@ -26,18 +26,18 @@
 		STAT_MEC = 15,
 		STAT_VIG = 10
 	)
-	description = "You are the head of the local branch of Free Trade Union, and Northern Light's Union representative<br>\
-A staunch entrepreneur, you are motivated by profit, for the Union and especially for yourself. You are here firstly to make as much money as you can, and secondly to keep the crew supplied. You can order things at cargo using the local Union funds, these will not magically replenish so you will run out of money quickly if you don't charge. Take payments by card or cash, and deposit them into the Union account to enable more purchases.<br>\
+	description = "You are the head of the local branch of Aster's Guild, and the CEV Eris Guild representative<br>\
+A staunch entrepreneur, you are motivated by profit, for the Guild and especially for yourself. You are here firstly to make as much money as you can, and secondly to keep the crew supplied. You can order things at cargo using the local Guild funds, these will not magically replenish so you will run out of money quickly if you don't charge. Take payments by card or cash, and deposit them into the Union account to enable more purchases.<br>\
 
 
 <br>\
-The Union also operates all the vendors on the ship, every credit paid into them goes to your Union account. Naturally operating is a two way street, you are expected, when necessary, to refill those vendors. Or send a technician to do it<br>\
+The Guild also operates all the vendors on the ship, every credit paid into them goes to your account. Naturally operating is a two way street, you are expected, when necessary, to refill those vendors. Or send a technician to do it<br>\
 <br>\
-You do not recieve a salary, but the local Union funds are yours to use. You may pay yourself as much as you like from that account, take the funds and use them for any purpose.  Bribery is a good one, you can get people to do a lot of things if you flash some cash, and its a good idea to keep a few thousand credits on hand in-cash to bribe your way through potentially difficult situations.<br>\
+You do not recieve a salary, but the local Guild branch funds are yours to use. You may pay yourself as much as you like from that account, take the funds and use them for any purpose.  Bribery is a good one, you can get people to do a lot of things if you flash some cash, and its a good idea to keep a few thousand credits on hand in-cash to bribe your way through potentially difficult situations.<br>\
 <br>\
 Things to bear in mind:<br>\
 	-Nobody has a right to free stuff. You are well within your rights to charge for anything you distribute, and you won't make a penny if you don't.<br>\
-	-NEV Northern Light has few laws on contraband. If someone wants something and they can afford it, you get it for them. Don't try to play moral guardian and don't ask questions. You are not responsible for whatever they do with your products.<br>\
+	-The CEV Eris has few laws on contraband. If someone wants something and they can afford it, you get it for them. Don't try to play moral guardian and don't ask questions. You are not responsible for whatever they do with your products.<br>\
 	-Loyalty is a priceless resource, yet cheap to maintain. Don't screw over the miners and technicians working under you. <br>\
 	-Charity is a weapon. Used correctly, it can do wonders for your public image.  A few gifts spread around makes for good returning customers"
 
@@ -49,7 +49,7 @@ Deploy your mining staff to harvest matter and materials<br>\
 Counsel the captain on directing the ship towards profitable opportunities"
 
 	loyalties = "As a merchant, your first loyalty is to money. You should be unscrupulous, willing to sell anything to anyone if they can pay your prices. Direct the ship towards profitable endeavours, and press the captain to make choices that will be financially lucrative<br>\
-Your second loyalty is to the Union. Ensure it retains good relations with privateers like the captain of the Northern Light, and don't embarass it. This means limiting your price gouging to only moderate levels. If you make an enemy of everyone, it may prove a costly mistake"
+Your second loyalty is to the Aster's Guild. Ensure it retains good relations with privateers like the captain of the Eris, and don't embarass it. This means limiting your price gouging to only moderate levels. If you make an enemy of everyone, it may prove a costly mistake"
 
 	software_on_spawn = list(///datum/computer_file/program/supply,
 							 ///datum/computer_file/program/deck_management,
@@ -60,21 +60,21 @@ Your second loyalty is to the Union. Ensure it retains good relations with priva
 	outfit_type = /decl/hierarchy/outfit/job/cargo/merchant
 
 /obj/landmark/join/start/merchant
-	name = "Trade Union Merchant"
+	name = "Aster's Guild Merchant"
 	icon_state = "player-beige-officer"
 	join_tag = /datum/job/merchant
 
 
 
 /datum/job/cargo_tech
-	title = "Union Cargo Technician"
+	title = "Guild Technician"
 	flag = GUILDTECH
 	department = DEPARTMENT_GUILD
 	department_flag = GUILD
-	faction = "NEV Northern Light"
+	faction = "CEV Eris"
 	total_positions = 3
 	spawn_positions = 3
-	supervisors = "the Free Trade Union Merchant"
+	supervisors = "the Guild Merchant"
 	selection_color = "#c3b9a6"
 	also_known_languages = list(LANGUAGE_JIVE = 100)
 	wage = WAGE_LABOUR_DUMB
@@ -101,9 +101,9 @@ Your second loyalty is to the Union. Ensure it retains good relations with priva
 							 /datum/computer_file/program/reports)
 
 
-	description = "You are a low ranking member of the Free Trade Union, and an apprentice to the local merchant.  You may one day take over his position. You are equal parts scavenger, loader, shopkeeper and salesman. Remember the union's core role here. To keep everyone supplied with everything they could need, and to profit from this endeavour<br>\
+	description = "You are a low ranking member of the Aster's Guild, and an apprentice to the local merchant.  You may one day take over his position. You are equal parts scavenger, loader, shopkeeper and salesman. Remember the Guild's core role here. To keep everyone supplied with everything they could need, and to profit from this endeavour<br>\
 <br>\
-Your main duties are to keep the local Union branch operational and profitable. To that end you should look out for all of the following tasks:"
+Your main duties are to keep the local Guild branch operational and profitable. To that end you should look out for all of the following tasks:"
 
 	duties = "	-Delivering goods to persons or departments that ordered them<br>\
 	-Staffing the front desk, taking payments and orders, buying up items from scavengers that come to sell things.<br>\
@@ -115,33 +115,33 @@ Your main duties are to keep the local Union branch operational and profitable. 
 		Your second loyalty is to the merchant, he ensures you're well paid and respected, in a universe where workers are often treated as interchangeable parts."
 
 /obj/landmark/join/start/cargo_tech
-	name = "Union Technician"
+	name = "Guild Technician"
 	icon_state = "player-beige"
 	join_tag = /datum/job/cargo_tech
 
 /datum/job/mining
-	title = "Union Miner"
+	title = "Guild Miner"
 	flag = MINER
 	department = DEPARTMENT_GUILD
 	department_flag = GUILD
-	faction = "NEV Northern Light"
+	faction = "CEV Eris"
 	total_positions = 4
 	spawn_positions = 4
-	supervisors = "the Free Trade Union Merchant"
+	supervisors = "the Aster's Guild Merchant"
 	selection_color = "#c3b9a6"
 	wage = WAGE_LABOUR_HAZARD //The miners union is stubborn
 	also_known_languages = list(LANGUAGE_JIVE = 100)
 
 	outfit_type = /decl/hierarchy/outfit/job/cargo/mining
 
-	description = "You are an asteroid miner, working in resource Procurement for the local branch of the Free Trade Union.<br>\
+	description = "You are an asteroid miner, working in resource Procurement for the local branch of the Aster's Guild.<br>\
 Your primary responsibility is to head out on the Mining Barge, and dig up as much ore as you can on an asteroid. The barge contains all the facilities to process that ore too, and allows you to deliver refined materials ready for use.<br>\
 <br>\
-All the stuff you dig up goes to the Union, and from then on it's the merchant's responsibility to sell it to other departments. <br>\
+All the stuff you dig up goes to the Guild, and from then on it's the merchant's responsibility to sell it to other departments. <br>\
 <br>\
 Your second responsibility is to help out aboard ship, while waiting to reach an asteroid. Quite notably, the roaches infesting the ship make heavy use of burrows to get around. You have the tools and expertise to effectively deal with these burrows, and you should try to destroy them wherever you find them<br>\
 <br>\
-Your third responsibility is as an unofficial security guard. The Union is a popular target for thieves, and one of the unspoken reasons for keeping rough, sturdy people like you on the payroll is to deter those thieves, and punish them with a swift beating for attempting to steal from the merchant. Try to keep the beatings nonlethal though, murder generates too much bad publicity<br>\
+Your third responsibility is as an unofficial security guard. The Aster's Guild is a popular target for thieves, and one of the unspoken reasons for keeping rough, sturdy people like you on the payroll is to deter those thieves, and punish them with a swift beating for attempting to steal from the merchant. Try to keep the beatings nonlethal though, murder generates too much bad publicity<br>\
 <br>\
 Character Expectations:<br>\
 	Miners should be tough and physically strong. Unafraid to get their hands dirty.<br>\
@@ -150,7 +150,7 @@ Character Expectations:<br>\
 
 	duties = "Dig up ores and minerals, process them into useable material.<br>\
 	Collapse burrows around the ship to help fight off the roach infestation<br>\
-	Protect the Union wing and the mMrchant, from thieves and intruders."
+	Protect the Guild wing and the Merchant, from thieves and intruders."
 
 	loyalties = "	Your first loyalty is to yourself and survival. This ship is mostly just a paycheck to you<br>\
 	Your second loyalty is to the merchant, he ensures you're well paid and respected, in a universe where workers are often treated as interchangeable parts.	"
@@ -176,19 +176,19 @@ Character Expectations:<br>\
 							 /datum/computer_file/program/reports)
 
 /obj/landmark/join/start/mining
-	name = "Union Miner"
+	name = "Guild Miner"
 	icon_state = "player-beige"
 	join_tag = /datum/job/mining
 
 /datum/job/artist
-	title = "Union Artist"
+	title = "Guild Artist"
 	flag = ARTIST
 	department = DEPARTMENT_GUILD
 	department_flag = GUILD
-	faction = "NEV Northern Light"
+	faction = "CEV Eris"
 	total_positions = 2
 	spawn_positions = 1
-	supervisors = "the Union Merchant"
+	supervisors = "the Aster's Guild Merchant"
 	selection_color = "#dddddd"
 	also_known_languages = list(LANGUAGE_JIVE = 100)
 	access = list(access_maint_tunnels, access_mailsorting, access_cargo, access_cargo_bot, access_mining, access_mining_station, access_artist, access_theatre, access_supply_consoles)
@@ -207,7 +207,7 @@ Character Expectations:<br>\
 							 /datum/computer_file/program/wordprocessor,
 							 /datum/computer_file/program/reports)
 
-	description = "You are a creative soul aboard this vessel. You have been contracted by the Free Trade Union to create masterful works of art to be sold at mind-boggling prices... and something about the NEV Northern Light and it's doomed journey sparks the fire of creation within you.<br>\
+	description = "You are a creative soul aboard this vessel. You have been contracted by the Aster's Guild to create masterful works of art to be sold at mind-boggling prices... and something about the CEV Eris and it's doomed journey sparks the fire of creation within you.<br>\
 	You do not gain desires like other members of the crew. Instead, you stop gaining insight once you max out at 100 points.<br>\
 	You can gain desires by spending this insight at your Artist's Bench to build a work of art, this art you create vary wildly in type, quality, and (most importantly, in the eyes of the Merchant) value. Sell your artwork to the unwashed masses, or give you work to the merchant to sell for a profit."
 
@@ -216,9 +216,9 @@ Character Expectations:<br>\
 	Be in the midst of action or combat to level your insight faster."
 
 	loyalties = "You are loyal to your soul, first and foremost. You are fascinated by this cursed ship, and want to mold this interest into your works of art.<br>\
-	Your second loyalty is to the merchant and the Trade Union as a whole. After all, they're the ones giving you housing, payment, and materials to create your art."
+	Your second loyalty is to the merchant and the Aster's Guild as a whole. After all, they're the ones giving you housing, payment, and materials to create your art."
 
 /obj/landmark/join/start/artist
-	name = "Union Artist"
+	name = "Guild Artist"
 	icon_state = "player-grey"
 	join_tag = /datum/job/artist

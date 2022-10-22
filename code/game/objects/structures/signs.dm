@@ -506,7 +506,7 @@
 	icon_state = "interrogation"
 
 /obj/structure/sign/department/commander
-	name = "AEGIS COMMANDER"
+	name = "IH COMMANDER"
 	icon_state = "commander"
 
 /obj/structure/sign/department/armory
@@ -524,9 +524,9 @@
 	desc = "Faction sign of some sort."
 
 /obj/structure/sign/faction/ironhammer
-	name = "Aegis Security"
-	desc = "This sign depicts the symbol of Aegis Security, the largest security provider within SolGov Space."
-	icon_state = "ironhammer"
+	name = "Ironhammer Security" //ChaosStation edit - Ironhammer
+	desc = "This sign depicts the symbol of Ironhammer Securities Group, the largest security provider within SolGov Space." //ChaosStation edit - Ironhammer
+	icon_state = "ironhammer_old" //ChaosStation edit - revert to IH_old
 
 /obj/structure/sign/faction/one_star
 	name = "One Star"
@@ -544,37 +544,37 @@
 	icon_state = "frozenstar"
 
 /obj/structure/sign/faction/moebius
-	name = "Lazarus Laboratories"
-	desc = "A shady megacorporation that has a stake in the Northern Light's expedition. "
-	icon_state = "moebius"
+	name = "Moebius MedSci"
+	desc = "A shady megacorporation that has a stake in the Eris's expedition. "
+	icon_state = "moebius_old"
 
 /obj/structure/sign/faction/neotheology
-	name = "Mekhane"
-	desc = "the Tau Cross - symbol of the Children of Mekhane."
+	name = "NeoTheology"
+	desc = "the Tau Cross - symbol of the Church of NeoTheology."
 	icon_state = "neotheology"
 
 /obj/structure/sign/faction/neotheology_old
-	name = "Mekhane"
-	desc = "the Tau Cross - symbol of the Children of Mekhane."
+	name = "NeoTheology"
+	desc = "the Tau Cross - symbol of the Church of NeoTheology."
 	icon_state = "neotheology-old"
 
 /obj/structure/sign/faction/neotheology_cross
-	name = "Mekhane Tau cross"
-	desc = "Religious symbol of the Children of Mekhane - the Tau cross. It looks like a decoration.."
+	name = "NeoTheology Tau cross"
+	desc = "Religious symbol of the Church of NeoTheology - the Tau cross. It looks like a decoration.."
 	icon_state = "wall_cross_steel"
 
 /obj/structure/sign/faction/neotheology_cross/gold
 	icon_state = "wall_cross_gold"
 
 /obj/structure/sign/faction/astersguild
-	name = "Free Trade Union"
-	desc = "The Free Trade Union - monopolists of far space transportation."
-	icon_state = "astersguild"
+	name = "Aster's Guild"
+	desc = "The Aster's Guild - monopolists of far space transportation."
+	icon_state = "astersguild_old" //ChaosStation edit - Asters Guild
 
 /obj/structure/sign/faction/technomancers
 	name = "Engineering Department"
 	desc = "Oh, dear, Atmosia isn't declaring independence <i>again</i>, are they...?"
-	icon_state = "technomancers"
+	icon_state = "technomancers_old" //ChaosStation edit - Old Technomancer sign
 
 /obj/structure/sign/faction/excelsior
 	name = "EXCELSIOR"

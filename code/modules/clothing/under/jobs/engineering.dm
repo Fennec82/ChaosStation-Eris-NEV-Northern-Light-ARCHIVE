@@ -1,7 +1,7 @@
 //Contains: Engineering department jumpsuits
 /obj/item/clothing/under/rank/exultant
 	desc = "A yellow-crimson jumpsuit worn by engineers. It has minor radiation shielding."
-	name = "chief engineer's jumpsuit"
+	name = "technomancer exultant's jumpsuit"
 	icon_state = "chiefengineer"
 	item_state = "g_suit"
 	armor = list(
@@ -15,7 +15,7 @@
 
 /obj/item/clothing/under/rank/engineer
 	desc = "A yellow jumpsuit worn by engineers. It has minor radiation shielding."
-	name = "engineer's jumpsuit"
+	name = "technomancer's jumpsuit"
 	icon_state = "engine"
 	item_state = "engine"
 	armor = list(

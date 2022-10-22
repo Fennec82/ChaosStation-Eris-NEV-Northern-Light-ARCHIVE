@@ -25,8 +25,8 @@
 	restrict_safety = TRUE
 
 /obj/item/gun/energy/crossbow/largecrossbow
-	name = "\improper MA EC SC \"Themis\"" //Eclipse Edit - gun names standardized
-	desc = "An energy crossbow, produced by the Mekhanites. A weapon favored by inquisitorial infiltration teams."
+	name = "MA EC SC \"Themis\"" //Eclipse Edit - gun names standardized
+	desc = "Energy crossbow, produced by NeoTheology. A weapon favored by inquisitorial infiltration teams."
 	icon = 'icons/obj/guns/energy/constantine.dmi'
 	icon_state = "constantine"
 	w_class = ITEM_SIZE_BULKY

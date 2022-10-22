@@ -1,13 +1,13 @@
 /datum/job/chaplain
-	title = "Mekhane Preacher"
+	title = "NeoTheology Preacher"
 	flag = CHAPLAIN
 	head_position = 1
 	department = DEPARTMENT_CHURCH
 	department_flag = CHURCH | COMMAND
-	faction = "NEV Northern Light"
+	faction = "CEV Eris"
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "The Mekhanite Council"
+	supervisors = "The NeoTheology Council"
 	selection_color = "#ecd37d"
 	also_known_languages = list(LANGUAGE_LATIN = 100)
 	security_clearance = CLEARANCE_CLERGY
@@ -23,7 +23,7 @@
 	department_account_access = TRUE
 	outfit_type = /decl/hierarchy/outfit/job/church/chaplain
 
-	wl_config_heads = TRUE //Eclipse edit
+//	wl_config_heads = TRUE //Eclipse edit
 
 	stat_modifiers = list(
 		STAT_TGH = 10,
@@ -42,28 +42,28 @@
 		CRUCIFORM_REDLIGHT
 	)
 
-	description = "You are the head of a local branch of the Church of the Children of Mekhane. You represent the church's interests aboard the NEV Northern Light, as well as the interests of Mekhane disciples among the crew. The church is a major contributor to the funding of the Northern Light's mission, and demands respect.<br>\
+	description = "You are the head of a local branch of the Church of the Children of NeoTheology. You represent the church's interests aboard the NEV Northern Light, as well as the interests of NeoTheology disciples among the crew. The church is a major contributor to the funding of the Northern Light's mission, and demands respect.<br>\
 	<br>\
-	Your duties aboard the ship may not seem so important to its mission, but they have greater significance in the galaxy as a whole. As well as a more immediate significance to the morale of the crew, especially the followers of the Mekhane.<br>\
+	Your duties aboard the ship may not seem so important to its mission, but they have greater significance in the galaxy as a whole. As well as a more immediate significance to the morale of the crew, especially the followers of the NeoTheology.<br>\
 	<br>\
 	Sometimes the Church will deploy Inquisitors to remote outposts like this, to serve its interests. When one is on the Northern Light, you will generally be their point of contact. Inquisitors outrank you and you should follow all of their instructions without question. Inquisitors work in secret, and so you should not discuss their presence with anyone unless they permit it.<br>\
 	<br>\
-	First and foremost, you are a Man of the Cloth, and as such you must tend to the spiritual needs of the crew. Those looking to convert to the Children of Mekhane should come to you for the rites.<br>\
+	First and foremost, you are a Man of the Cloth, and as such you must tend to the spiritual needs of the crew. Those looking to convert to the Children of NeoTheology should come to you for the rites.<br>\
 	When the mood is dour, when all hope is lost, it falls to you to be a spiritual leader. Preach to the flock, inspire faith and strength in their hearts. The rituals in your book can also offer more tangible assistance in labour and combat.<br>\
 	Even when times are bright, do your best to keep it that way. Tour the ship, offering support to those in need. A prayer in the right ear, a helping hand, or a shoulder to cry on, can do wonders. And people are most vulnerable to conversion when they are at their weakest.<br>\
 	<br>\
-	For those who reject the words of Mekhane, all is not lost. Your cloning services are not inclusive to the faithful, though they may have priority in a crisis. For those that refuse Mekhane's cloning rituals, the best that can be offered is a dignified funeral. The chapel area contains coffins and machinery to commit the dead unto the void. Burial at space. Any player who is given a proper funeral will have their respawn time reduced, allowing them to rejoin the crew as a new character more quickly, after death.<br>\
+	For those who reject the words of Mekhane, all is not lost. Your cloning services are not inclusive to the faithful, though they may have priority in a crisis. For those that refuse NeoTheology's cloning rituals, the best that can be offered is a dignified funeral. The chapel area contains coffins and machinery to commit the dead unto the void. Burial at space. Any player who is given a proper funeral will have their respawn time reduced, allowing them to rejoin the crew as a new character more quickly, after death.<br>\
 	<br>\
-	Above all else, remember that Mekhane is a religion of tolerance."
+	Above all else, remember that NeoTheology is a religion of tolerance."
 
 
-	duties = "Represent the interests of the Mekhanite Council and your fellow disciples aboard the NEV Northern Light. Protect them from persecution and speak for them.<br>\
+	duties = "Represent the interests of the NeoTheology Council and your fellow disciples aboard the CEV Eris. Protect them from persecution and speak for them.<br>\
 		Hold mass, give sermons, preach to the faithful, and lead group ritual sessions.<br>\
 		Try to protect sapient life in all its myriad forms, especially the Vagabond for they are epitome of the downtrodden here.<br>\
 		Recover and clone the dead, for all sapient life is precious.<br>\
 		Hold funerals for the dead heathens."
 
-	setup_restricted = TRUE
+//	setup_restricted = TRUE Chaos change - remove NeoTheology humie-only restriction. Jesus loves all lmao. This change runs throughout all NT jobs
 
 /obj/landmark/join/start/chaplain
 	name = "Chaplain"
@@ -71,14 +71,14 @@
 	join_tag = /datum/job/chaplain
 
 /datum/job/acolyte
-	title = "Mekhane Acolyte"
+	title = "NeoTheology Acolyte"
 	flag = ACOLYTE
 	department = DEPARTMENT_CHURCH
 	department_flag = CHURCH
-	faction = "NEV Northern Light"
+	faction = "CEV Eris"
 	total_positions = 4
 	spawn_positions = 4
-	supervisors = "the Mekhane Preacher"
+	supervisors = "the NeoTheology Preacher"
 	selection_color = "#ecd37d"
 	also_known_languages = list(LANGUAGE_LATIN = 100)
 	security_clearance = CLEARANCE_COMMON
@@ -102,28 +102,28 @@
 	<br>\
 	Though more may be required of you, should your Preacher so chose.<br>\
 	<br>\
-	Above all else, remember that Mekhane is a religion of tolerance."
+	Above all else, remember that NeoTheology is a religion of tolerance."
 
 	duties = "Serve the Preacher's will.<br>\
 	Assist in cloning the dead, for all sapient life is precious."
 
-	setup_restricted = TRUE
+//	setup_restricted = TRUE
 
 /obj/landmark/join/start/acolyte
-	name = "Mekhane Acolyte"
+	name = "NeoTheology Acolyte"
 	icon_state = "player-black"
 	join_tag = /datum/job/acolyte
 
 
 /datum/job/hydro
-	title = "Mekhane Agrolyte"
+	title = "NeoTheology Agrolyte"
 	flag = BOTANIST
 	department = DEPARTMENT_CHURCH
 	department_flag = CHURCH
-	faction = "NEV Northern Light"
+	faction = "CEV Eris"
 	total_positions = 3
 	spawn_positions = 3
-	supervisors = "the Mekhane Preacher"
+	supervisors = "the NeoTheology Preacher"
 	selection_color = "#ecd37d"
 	//alt_titles = list("Hydroponicist")
 	also_known_languages = list(LANGUAGE_LATIN = 100)
@@ -156,22 +156,22 @@
 	Provide fresh produce.<br>\
 	Serve the Faith."
 
-	setup_restricted = TRUE
+//	setup_restricted = TRUE
 
 /obj/landmark/join/start/hydro
-	name = "Mekhane Agrolyte"
+	name = "NeoTheology Agrolyte"
 	icon_state = "player-black"
 	join_tag = /datum/job/hydro
 
 /datum/job/janitor
-	title = "Mekhane Custodian"
+	title = "NeoTheology Custodian"
 	flag = JANITOR
 	department = DEPARTMENT_CHURCH
 	department_flag = CHURCH
-	faction = "NEV Northern Light"
+	faction = "CEV Eris"
 	total_positions = 2
 	spawn_positions = 2
-	supervisors = "the Mekhane Preacher"
+	supervisors = "the NeoTheology Preacher"
 	selection_color = "#ecd37d"
 	//alt_titles = list("Custodian","Sanitation Technician")
 	also_known_languages = list(LANGUAGE_LATIN = 100)
@@ -205,9 +205,9 @@
 	duties = "Keep the hallways clean of blood, dirt, and bug carcasses.<br>\
 	Serve the faith."
 
-	setup_restricted = TRUE
+//	setup_restricted = TRUE
 
 /obj/landmark/join/start/janitor
-	name = "Mekhane Custodian"
+	name = "NeoTheology Custodian"
 	icon_state = "player-black"
 	join_tag = /datum/job/janitor

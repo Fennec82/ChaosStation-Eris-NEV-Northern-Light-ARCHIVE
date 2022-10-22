@@ -34,7 +34,7 @@
 	Command
 **************/
 /datum/department/command
-	name = "NEV Northern Light Command"
+	name = "CEV Eris Command" //Chaosstation edit - CEV Eris
 	id = DEPARTMENT_COMMAND
 	/*
 	The command account is the ship account. It is the master account that retainer departments are paid from,
@@ -55,16 +55,16 @@
 
 //Eclipse Edit: Engineering - moved in-house
 /datum/department/technomancers
-	name = "NEV Northern Light Engineering"
+	name = "CEV Eris Engineering" //Chaosstation edit - CEV Eris
 	id = DEPARTMENT_ENGINEERING
 	funding_source = DEPARTMENT_COMMAND
 
 /datum/department/ironhammer
-	name = "Aegis Security Solutions"
+	name = "Ironhammer Security" //Chaosstation edit - Ironhammer
 	id = DEPARTMENT_SECURITY
 
 /datum/department/civilian
-	name = "NEV Northern Light Civic"
+	name = "CEV Eris Civic" //Chaosstation edit - CEV Eris
 	id = DEPARTMENT_CIVILIAN
 	account_initial_balance = 2000
 	//Now for the club
@@ -75,18 +75,18 @@
 *******************/
 //Departments subsidised by an external organisation. These pay their own employees
 /datum/department/moebius_medical
-	name = "Lazarus Foundation: Medical Division"
+	name = "Moebius MedSci: Medical Division" //Chaosstation edit - Moebius
 	id = DEPARTMENT_MEDICAL
 	account_initial_balance = 5000
 	funding_source = "DEPARTMENT_SCIENCE"
 
 /datum/department/moebius_research
-	name = "Lazarus Foundation: Research Division"
+	name = "Moebius MedSci: Research Division" //Chaosstation edit - Moebius
 	id = DEPARTMENT_SCIENCE
 	account_initial_balance = 10000 //For buying materials and components and things of scientific value
 
 /datum/department/church
-	name = "Children of Mekhane"
+	name = "Church of NeoTheology" //Chaosstation edit - NeoTheology
 	id = DEPARTMENT_CHURCH
 	account_initial_balance = 4500 //each Neotheo has a wage of 900, this is enough to pay 5 paychecks before needing more cash
 
@@ -96,7 +96,7 @@
 *******************/
 //Self funds and pays wages out of its earnings
 /datum/department/guild
-	name = "Free Trade Union"
+	name = "Aster's Guild" //Chaosstation edit - Aster's Guild
 	id = DEPARTMENT_GUILD
 
 	/*

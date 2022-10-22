@@ -51,7 +51,7 @@
 
 /tipsAndTricks/jobs/engies_suppermatter_one
     jobs_list = list(/datum/job/chief_engineer, /datum/job/technomancer)
-    tipText = "The Supermatter core is a fickle mistress, and each Chief Engineer has their own unique setup. No setup is strictly wrong; a poor Engineer would be dead by now, surely..."
+    tipText = "The Supermatter core is a fickle mistress, and each technomancer has their own unique setup. No setup is strictly wrong; a poor Engineer would be dead by now, surely..."
 
 /tipsAndTricks/jobs/engies_suppermatter_two
     jobs_list = list(/datum/job/chief_engineer, /datum/job/technomancer)
@@ -59,7 +59,7 @@
 
 /tipsAndTricks/jobs/engies_suppermatter_three
     jobs_list = list(/datum/job/chief_engineer, /datum/job/technomancer)
-    tipText = "Woe betide the Chief Engineer who jettisons a Supermatter; for their numbers dwindle, and the artifice of their creation is lost. It is better to hurl oneself after it than live so ashamed."
+    tipText = "Woe betide the Technomancer Exultant who jettisons a Supermatter; for their numbers dwindle, and the artifice of their creation is lost. It is better to hurl oneself after it than live so ashamed."
 
 /tipsAndTricks/jobs/engies_lifekeeper
     jobs_list = list(/datum/job/chief_engineer, /datum/job/technomancer)
@@ -67,11 +67,11 @@
 
 /tipsAndTricks/jobs/engies_die_live
     jobs_list = list(/datum/job/chief_engineer, /datum/job/technomancer)
-    tipText = "An Engineer shall die so that the ship shall live. It is the one rite all engineers share."
+    tipText = "An technomancer shall die so that the ship shall live. It is the one rite all engineers share."
 
 /tipsAndTricks/jobs/engies_tenants
     jobs_list = list(/datum/job/chief_engineer, /datum/job/technomancer)
-    tipText = "The relationship between ship captains and engineers is like that between tenants and landlords. One struts around between carpeting and ceiling like they own the place, while the other crawls in the foundation and attic actually giving a damn."
+    tipText = "The relationship between ship captains and technomancers is like that between tenants and landlords. One struts around between carpeting and ceiling like they own the place, while the other crawls in the foundation and attic actually giving a damn."
 
 /tipsAndTricks/jobs/engies_glass_fire
     jobs_list = list(/datum/job/chief_engineer, /datum/job/technomancer)
@@ -79,7 +79,7 @@
 
 /tipsAndTricks/jobs/engies_firespacesuit
     jobs_list = list(/datum/job/chief_engineer, /datum/job/technomancer)
-    tipText = "No engineer lives long without learning that firesuits are not space suits. The opposite is sometimes true. Sometimes."
+    tipText = "No technomancer lives long without learning that firesuits are not space suits. The opposite is sometimes true. Sometimes."
 
 /tipsAndTricks/jobs/tric
     jobs_list = list(/datum/job/cmo, /datum/job/doctor, /datum/job/chemist, /datum/job/psychiatrist, /datum/job/paramedic)

@@ -39,7 +39,7 @@
 	light_overlay = "sec_light"
 
 /obj/item/rig/combat/ironhammer
-	name = "aegis hardsuit control module"
+	name = "Ironhammer hardsuit control module"
 	desc = "Standard operative suit issued to Aegis mercenaries. Provides balanced overall protection against various threats and widely used on planets surface, space stations or in open space."
 	icon_state = "ihs_rig"
 	helm_type = /obj/item/clothing/head/space/rig/combat/ironhammer

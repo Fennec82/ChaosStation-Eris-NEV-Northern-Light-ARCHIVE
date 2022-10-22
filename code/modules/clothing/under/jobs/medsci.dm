@@ -118,7 +118,7 @@
 	item_state = "b_suit"
 
 /obj/item/clothing/under/rank/paramedic
-	desc = "Jumpsuit of Lazarus Medical paramedics. It's made with reinforced fiber to offer more protection for recovery operators."
+	desc = "Jumpsuit of Moebius Medical paramedics. It's made with reinforced fiber to offer more protection for recovery operators."
 	name = "paramedic's jumpsuit"
 	icon_state = "paramedic"
 	item_state = "paramedic"

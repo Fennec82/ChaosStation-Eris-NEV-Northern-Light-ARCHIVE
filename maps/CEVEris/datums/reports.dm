@@ -1,5 +1,5 @@
 //Report datums for use with the report editor and other programs.
-
+//Chaosstation change - Back to Eris format
 /datum/computer_file/report/recipient/crew_transfer
 	form_name = "CTA-AG-01"
 	title = "Crew Transfer Application"
@@ -9,7 +9,7 @@
 /datum/computer_file/report/recipient/crew_transfer/generate_fields()
 	..()
 	var/list/xo_fields = list()
-	add_field(/datum/report_field/instruction, "NEV Northern Light - Office of the Head of Personnel")
+	add_field(/datum/report_field/instruction, "CEV Eris - Office of the Head of Personnel")
 	add_field(/datum/report_field/people/from_manifest, "Name (XO)")
 	add_field(/datum/report_field/people/from_manifest, "Name (applicant)", required = 1)
 	add_field(/datum/report_field/date, "Date filed")
@@ -35,7 +35,7 @@
 /datum/computer_file/report/recipient/access_modification/generate_fields()
 	..()
 	var/list/xo_fields = list()
-	add_field(/datum/report_field/instruction, "NEV Northern Light - Office of the Head of Personnel")
+	add_field(/datum/report_field/instruction, "CEV Eris - Office of the Head of Personnel")
 	add_field(/datum/report_field/people/from_manifest, "Name (XO)")
 	add_field(/datum/report_field/people/from_manifest, "Name (applicant)", required = 1)
 	add_field(/datum/report_field/date, "Date filed")
@@ -55,13 +55,13 @@
 /datum/computer_file/report/recipient/borging
 	form_name = "CC-LFL-09"
 	title = "Cyborgification Contract"
-	logo = "\[lazarus\]"
+	logo = "\[moebius\]"
 	available_on_ntnet = 1
 
 /datum/computer_file/report/recipient/borging/generate_fields()
 	..()
 	var/list/xo_fields = list()
-	add_field(/datum/report_field/instruction, "NEV Northern Light - Office of the Head of Personnel")
+	add_field(/datum/report_field/instruction, "CEV Eris - Office of the Head of Personnel")
 	add_field(/datum/report_field/people/from_manifest, "Name (XO)")
 	add_field(/datum/report_field/people/from_manifest, "Name (subject)", required = 1)
 	add_field(/datum/report_field/date, "Date filed")
@@ -74,7 +74,7 @@
 		field.set_access(access_edit = access_hop)
 
 /datum/computer_file/report/recipient/sec
-	logo = "\[aegis\]"
+	logo = "\[ironhammer\]"
 
 /datum/computer_file/report/recipient/sec/New()
 	..()
@@ -82,31 +82,31 @@
 	set_access(access_heads, override = 0)
 
 /datum/computer_file/report/recipient/sec/warning
-	form_name = "WW-AS-081"
+	form_name = "WW-IH-081"
 	title = "Written Warning"
 	available_on_ntnet = 1
 
 /datum/computer_file/report/recipient/sec/warning/generate_fields()
 	..()
-	add_field(/datum/report_field/instruction, "Aegis Division NEV Northern Light")
+	add_field(/datum/report_field/instruction, "Ironhammer Division CEV Eris")
 	add_field(/datum/report_field/instruction, "Written Warning.")
 	add_field(/datum/report_field/people/from_manifest, "Name")
 	add_field(/datum/report_field/pencode_text, "Department")
 	add_field(/datum/report_field/date, "Date")
 	add_field(/datum/report_field/time, "Time")
 	add_field(/datum/report_field/pencode_text, "Reason/(s/) for Written Warning:")
-	add_field(/datum/report_field/instruction, "This written warning is only valid if served and signed by the Captain, First Officer, or any serving member of Aegis")
+	add_field(/datum/report_field/instruction, "This written warning is only valid if served and signed by the Captain, First Officer, or any serving member of Ironhammer")
 	add_field(/datum/report_field/signature, "Signature")
 
 /datum/computer_file/report/recipient/sec/complaint
-	form_name = "AIC-AS-179"
-	title = "Aegis Internal Complaint Form"
+	form_name = "AIC-IH-179"
+	title = "Ironhammer Internal Complaint Form"
 	available_on_ntnet = 1
 
 /datum/computer_file/report/recipient/sec/complaint/generate_fields()
 	..()
-	add_field(/datum/report_field/instruction, "Aegis Complaint Form")
-	add_field(/datum/report_field/instruction, "Vessel: NEV Northern Light")
+	add_field(/datum/report_field/instruction, "Ironhammer Security Complaint Form")
+	add_field(/datum/report_field/instruction, "Vessel: CEV Eris")
 	add_field(/datum/report_field/date, "Date")
 	add_field(/datum/report_field/time, "Time")
 	add_field(/datum/report_field/people/from_manifest, "Name of Complainent:")
@@ -115,18 +115,18 @@
 	add_field(/datum/report_field/pencode_text, "Witness Details (if applicable)")
 	add_field(/datum/report_field/signature, "Signature of Complainent:")
 	add_field(/datum/report_field/instruction, "\[center\]\[i\]Provide Commander Resolution, Commander Signature, and Commander Stamp below\[/i\]\[/center\]\[hr\]\[/small\]")
-	add_field(/datum/report_field/pencode_text, "Aegis Commander Resolution:")
-	add_field(/datum/report_field/signature, "Aegis Commander Signature")
-	add_field(/datum/report_field/instruction, "\[small\]\[center\]This form is for official AEGIS SECURITY use ONLY. \[br\] Any information contained in this form will be considered CLASSIFIED to all but those who are approved to use and view this document\[/center\]\[/small\]")
+	add_field(/datum/report_field/pencode_text, "Ironhammer Commander Resolution:")
+	add_field(/datum/report_field/signature, "Ironhammer Commander Signature")
+	add_field(/datum/report_field/instruction, "\[small\]\[center\]This form is for official IRONHAMMER SECURITY use ONLY. \[br\] Any information contained in this form will be considered CLASSIFIED to all but those who are approved to use and view this document\[/center\]\[/small\]")
 
 /datum/computer_file/report/recipient/sec/investigation
-	form_name = "IR-AS-43"
+	form_name = "IR-IH-43"
 	title = "Investigation Report"
 	available_on_ntnet = 1
 
 /datum/computer_file/report/recipient/sec/investigation/generate_fields()
 	..()
-	add_field(/datum/report_field/instruction, "Aegis Division NEV Northern Light")
+	add_field(/datum/report_field/instruction, "Ironhammer Division CEV Eris")
 	add_field(/datum/report_field/instruction, "For internal use only.")
 	add_field(/datum/report_field/people/from_manifest, "Name")
 	add_field(/datum/report_field/date, "Date")
@@ -138,13 +138,13 @@
 	set_access(access_edit = access_sec_consoles)
 
 /datum/computer_file/report/recipient/sec/incident
-	form_name = "SIR-AS-12"
+	form_name = "SIR-IH-12"
 	title = "Security Incident Report"
 	available_on_ntnet = 1
 
 /datum/computer_file/report/recipient/sec/incident/generate_fields()
 	..()
-	add_field(/datum/report_field/instruction, "Aegis Division NEV Northern Light")
+	add_field(/datum/report_field/instruction, "Ironhammer Division CEV Eris")
 	add_field(/datum/report_field/instruction, "To be filled out by Operative on duty responding to the Incident. Report must be signed and submitted before the end of the shift!")
 	add_field(/datum/report_field/people/from_manifest, "Reporting Operative")
 	add_field(/datum/report_field/simple_text, "Offense/Incident Type")
@@ -159,14 +159,14 @@
 	set_access(access_edit = access_sec_consoles)
 
 /datum/computer_file/report/recipient/sec/evidence
-	form_name = "EPF-AS-02b"
+	form_name = "EPF-IH-02b"
 	title = "Evidence and Property Form"
 	available_on_ntnet = 1
 
 /datum/computer_file/report/recipient/sec/evidence/generate_fields()
 	..()
 	var/datum/report_field/temp_field
-	add_field(/datum/report_field/instruction, "Aegis Division NEV Northern Light")
+	add_field(/datum/report_field/instruction, "Ironhammer Division CEV Eris")
 	add_field(/datum/report_field/date, "Date")
 	add_field(/datum/report_field/time, "Time")
 	add_field(/datum/report_field/people/from_manifest, "Confiscated from")
@@ -182,8 +182,8 @@
 //Supply and Exploration; these are not shown in deck manager.
 
 /datum/computer_file/report/recipient/docked
-	logo = "\[ftu\]"
-	form_name = "DVR-FTU-12"
+	logo = "\[guild\]"
+	form_name = "DVR-CEV-12"
 	title = "Docked Vessel Report"
 	available_on_ntnet = 1
 
@@ -194,7 +194,7 @@
 
 /datum/computer_file/report/recipient/docked/generate_fields()
 	..()
-	add_field(/datum/report_field/instruction, "NEV Northern Light Supply and Hangar Management Department")
+	add_field(/datum/report_field/instruction, "CEV Eris Supply and Hangar Management Department")
 	add_field(/datum/report_field/instruction, "General Info")
 	add_field(/datum/report_field/date, "Date")
 	add_field(/datum/report_field/simple_text, "Vessel Name")
@@ -214,7 +214,7 @@
 	add_field(/datum/report_field/pencode_text, "Additional Undocking Comments")
 
 /datum/computer_file/report/recipient/fauna
-	logo = "\[lazarus\]"
+	logo = "\[moebius\]"
 	form_name = "AFR-LFL-19f"
 	title = "Alien Fauna Report"
 	available_on_ntnet = 1
@@ -226,7 +226,7 @@
 
 /datum/computer_file/report/recipient/fauna/generate_fields()
 	..()
-	add_field(/datum/report_field/instruction, "NEV Northern Light Expeditions")
+	add_field(/datum/report_field/instruction, "CEV Eris Expeditions")
 	add_field(/datum/report_field/instruction, "The following is to be filled out by members of a Expedition team after discovery and study of new alien life forms.")
 	add_field(/datum/report_field/date, "Date")
 	add_field(/datum/report_field/people/list_from_manifest, "Personnel Involved")
@@ -239,15 +239,15 @@
 	add_field(/datum/report_field/pencode_text, "Defense/Offense")
 	add_field(/datum/report_field/pencode_text, "Special Characteristic(s)")
 	add_field(/datum/report_field/pencode_text, "Classification")
-	add_field(/datum/report_field/instruction, "On completion of this form and form approval, the Research Director should fax the form to both the Corporate Liaison and the Commanding Officer, as well as keep a copy on file in their Office alongside other mission reports.")
+	add_field(/datum/report_field/instruction, "On completion of this form and form approval, the Research Director should fax the form to the Commanding Officer, as well as keep a copy on file in their Office alongside other mission reports.") // Chaosstation change - removes mention of corp officer
 
 //NT reports, mostly for liason but can be used by any NT personnel.
 
 /datum/computer_file/report/recipient/laz
-	logo = "\[lazarus\]"
+	logo = "\[moebius\]"
 
 /datum/computer_file/report/recipient/laz/proc/add_header()
-	add_field(/datum/report_field/simple_text, "Vessel", "NEV Northern Light")
+	add_field(/datum/report_field/simple_text, "Vessel", "CEV Eris")
 	add_field(/datum/report_field/date, "Date")
 	add_field(/datum/report_field/time, "Time")
 	add_field(/datum/report_field/simple_text, "Index")
@@ -276,7 +276,7 @@
 	logo = "\[logo\]"
 
 /datum/computer_file/report/recipient/nt/proc/add_header()
-	add_field(/datum/report_field/simple_text, "Vessel", "NEV Northern Light")
+	add_field(/datum/report_field/simple_text, "Vessel", "CEV Eris")
 	add_field(/datum/report_field/date, "Date")
 	add_field(/datum/report_field/time, "Time")
 	add_field(/datum/report_field/simple_text, "Index")
@@ -318,8 +318,8 @@
 	add_field(/datum/report_field/options/yes_no, "Approved")
 
 /datum/computer_file/report/recipient/nt/incident/ship
-	form_name = "NEV-3203"
-	title = "NEV Northern Light Ship Incident Report"
+	form_name = "CEV-3203"
+	title = "CEV Eris Ship Incident Report"
 	available_on_ntnet = 1
 
 /datum/computer_file/report/recipient/nt/incident/ship/generate_fields()
@@ -329,8 +329,8 @@
 
 
 /datum/computer_file/report/recipient/nt/incident/personnel
-	form_name = "NEV-3205"
-	title = "NEV Northern Light Personnel Incident Report"
+	form_name = "CEV-3205"
+	title = "CEV Eris Personnel Incident Report"
 	available_on_ntnet = 1
 
 /datum/computer_file/report/recipient/nt/incident/personnel/generate_fields()
@@ -340,13 +340,13 @@
 
 /datum/computer_file/report/recipient/sec/incident/asset
 	form_name = "AIR-AS-3201"
-	title = "NEV Northern Light Asset Incident Report"
+	title = "CEV Eris Asset Incident Report"
 	available_on_ntnet = 1
 
 /datum/computer_file/report/recipient/nt/incident/asset/generate_fields()
 	..()
-	add_field(/datum/report_field/pencode_text, "NEV Northern Light Employee Injuries")
-	add_field(/datum/report_field/pencode_text, "NEV Northern Light Assets Lost")
+	add_field(/datum/report_field/pencode_text, "CEV Eris Employee Injuries")
+	add_field(/datum/report_field/pencode_text, "CEV Eris Assets Lost")
 	add_signatures()
 
 /datum/computer_file/report/recipient/sec/incident/xeno
@@ -363,8 +363,8 @@
 	add_field(/datum/report_field/signature, "Signature")
 
 /datum/computer_file/report/recipient/nt/incident/crew
-	form_name = "NEV-3241"
-	title = "NEV Northern Light Ship Crew/Employee Incident Report"
+	form_name = "CEV-3241"
+	title = "CEV Eris Ship Crew/Employee Incident Report"
 	available_on_ntnet = 1
 
 /datum/computer_file/report/recipient/nt/incident/crew/generate_fields()
@@ -376,8 +376,8 @@
 
 /datum/computer_file/report/recipient/laz/volunteer
 	form_name = "TSV-LFL-1443"
-	title = "Lazarus Test Subject Volunteer Form"
-	logo= "\[lazarus\]"
+	title = "Moebius MedSci Test Subject Volunteer Form"
+	logo= "\[moebius\]"
 	available_on_ntnet = 1
 
 /datum/computer_file/report/recipient/laz/volunteer/generate_fields()
@@ -388,10 +388,10 @@
 	add_field(/datum/report_field/simple_text, "Intended Procedure(s)")
 	add_field(/datum/report_field/simple_text, "Compensation for Volunteer: (if any)")
 	add_field(/datum/report_field/people/list_from_manifest, "Handling Researcher(s)")
-	add_field(/datum/report_field/instruction, "By signing, the \"Volunteer\" agrees to absolve the Lazarus Foundation, and its employees, of any liability or responsibility for injuries, damages, property loss or side-effects that may result from the intended procedure. If signed by an authorized representative of the Lazarus Foundation, this form is deemed reviewed, but is only approved if so marked.")
+	add_field(/datum/report_field/instruction, "By signing, the \"Volunteer\" agrees to absolve Moebius MedSci, and its employees, of any liability or responsibility for injuries, damages, property loss or side-effects that may result from the intended procedure. If signed by an authorized representative of Moebius MedSci, this form is deemed reviewed, but is only approved if so marked.")
 	add_field(/datum/report_field/signature, "Volunteer's Signature:")
 	add_field(/datum/report_field/signature, "Volunteer's Department Head Signature:")
-	temp_fields += add_field(/datum/report_field/signature, "Lazarus Representative's Signature")
+	temp_fields += add_field(/datum/report_field/signature, "Moebius MedSci Representative's Signature")
 	temp_fields += add_field(/datum/report_field/options/yes_no, "Approved")
 	for(var/datum/report_field/temp_field in temp_fields)
 		temp_field.set_access(access_edit = access_moebius)
@@ -404,8 +404,8 @@
 /datum/computer_file/report/recipient/nt/deny/generate_fields()
 	..()
 	add_header()
-	add_field(/datum/report_field/instruction, "Dear Sir/Madam, we regret to inform you that your volunteer application for service as a test subject with the Lazarus Foundation Laboratories has been rejected. We thank you for your interest in our company and the progression of research. Attached, you will find a copy of your original volunteer form for your records. Regards,")
-	add_field(/datum/report_field/signature, "Lazarus Representative's Signature")
+	add_field(/datum/report_field/instruction, "Dear Sir/Madam, we regret to inform you that your volunteer application for service as a test subject with Moebius MedSci has been rejected. We thank you for your interest in our company and the progression of research. Attached, you will find a copy of your original volunteer form for your records. Regards,")
+	add_field(/datum/report_field/signature, "Moebius MedSci Representative's Signature")
 	add_field(/datum/report_field/people/from_manifest, "Name of Volunteer")
 	add_field(/datum/report_field/instruction, "Reason for Rejection")
 	add_field(/datum/report_field/options/yes_no, "Physically Unfit")
@@ -424,7 +424,7 @@
 	add_field(/datum/report_field/options/yes_no, "Approved")
 
 /datum/computer_file/report/recipient/nt/memo/internal
-	form_name = "NEV-0003"
+	form_name = "CEV-0003"
 	title = "Internal Memorandum"
 	available_on_ntnet = 1
 
@@ -433,7 +433,7 @@
 	set_access(access_heads, access_heads)
 
 /datum/computer_file/report/recipient/nt/memo/external
-	form_name = "NEV-0005"
+	form_name = "CEV-0005"
 	title = "External Memorandum"
 	available_on_ntnet = 1
 
@@ -443,8 +443,8 @@
 
 //No access restrictions for easier use.
 /datum/computer_file/report/recipient/nt/sales
-	form_name = "FTU-2192"
-	title = "Free Trade Union Sales Contract and Receipt"
+	form_name = "AG-2192"
+	title = "Aster's Guild Sales Contract and Receipt"
 	available_on_ntnet = 1
 
 /datum/computer_file/report/recipient/nt/sales/generate_fields()
@@ -463,8 +463,8 @@
 	add_field(/datum/report_field/options/yes_no, "Approved")
 
 /datum/computer_file/report/recipient/nt/visa
-	form_name = "NEV-0952"
-	title = "NEV Northern Light ID or PDA Request Form"
+	form_name = "CEV-0952"
+	title = "CEV Eris ID or PDA Request Form"
 	available_on_ntnet = 1
 
 /datum/computer_file/report/recipient/nt/visa/generate_fields()
@@ -482,7 +482,7 @@
 	temp_field.set_access(access_edit = access_heads)
 
 /datum/computer_file/report/recipient/nt/payout
-	form_name = "NEV-3310"
+	form_name = "CEV-3310"
 	title = "Next of Kin Payout Authorization"
 	available_on_ntnet = 1
 
@@ -507,7 +507,7 @@
 
 /datum/computer_file/report/recipient/eng/audit
 	form_name = "EDA-AG-12"
-	title = "NEV Northern Light Department Audit"
+	title = "CEV Eris Department Audit"
 	available_on_ntnet = 1
 
 /datum/computer_file/report/recipient/eng/audit/generate_fields()

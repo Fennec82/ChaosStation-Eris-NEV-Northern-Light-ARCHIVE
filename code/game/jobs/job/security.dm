@@ -1,10 +1,10 @@
 /datum/job/ihc
-	title = "Aegis Commander"
+	title = "Ironhammer Commander"
 	flag = CC
 	head_position = 1
 	department = DEPARTMENT_SECURITY
 	department_flag = IRONHAMMER | COMMAND
-	faction = "NEV Northern Light"
+	faction = "CEV Eris"
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "the Captain"
@@ -15,8 +15,8 @@
 
 	outfit_type = /decl/hierarchy/outfit/job/security/ihc
 
-	wl_config_heads = TRUE		//Eclipse edit.
-	wl_config_sec = TRUE		//Eclipse edit.
+//	wl_config_heads = TRUE		//Eclipse edit.
+//	wl_config_sec = TRUE		//Eclipse edit.
 
 	access = list(
 		access_security, access_eva, access_sec_doors, access_brig, access_armory, access_medspec,
@@ -40,7 +40,7 @@
 							 /datum/computer_file/program/camera_monitor,
 							 /datum/computer_file/program/reports)
 
-	description = "You are the head of the Aegis Security division contracted to protect and serve aboard the NEV Northern Light. The company contracting you out, Aegis Security serves as both an internal security force, and as a guard for expeditions out with the ship.<br>\
+	description = "You are the head of the Ironhammer Security division contracted to protect and serve aboard the NEV Northern Light. The company contracting you out, Ironhammer Security serves as both an internal security force, and as a guard for expeditions out with the ship.<br>\
 	<br>\
 	Your goal is to keep everyone aboard the ship as safe as possible, and to eliminate any threats to safety."
 
@@ -57,26 +57,26 @@
 		Your third loyalty is to the crew. As the strongest armed force on the ship, any violent actions commited against the ship fall to you to protect against, external or otherwise."
 
 /obj/landmark/join/start/ihc
-	name = "Aegis Commander"
+	name = "Ironhammer Commander"
 	icon_state = "player-blue-officer"
 	join_tag = /datum/job/ihc
 
 
 /datum/job/gunserg
-	title = "Aegis Gunnery Sergeant"
+	title = "Ironhammer Gunnery Sergeant"
 	flag = GUNSERG
 	department = DEPARTMENT_SECURITY
 	department_flag = IRONHAMMER
-	faction = "NEV Northern Light"
+	faction = "CEV Eris"
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the Aegis Commander"
+	supervisors = "the Ironhammer Commander"
 	selection_color = "#a7bbc6"
 	department_account_access = TRUE
 	wage = WAGE_LABOUR_HAZARD
 	also_known_languages = list(LANGUAGE_NEOHONGO = 100)
 
-	wl_config_sec = TRUE		//Eclipse edit.
+//	wl_config_sec = TRUE		//Eclipse edit.
 
 	outfit_type = /decl/hierarchy/outfit/job/security/gunserg
 
@@ -98,8 +98,8 @@
 	software_on_spawn = list(/datum/computer_file/program/digitalwarrant,
 							 /datum/computer_file/program/camera_monitor)
 
-	description = "You are the Second-in-Command of the local Aegis Security regiment, and the defacto leader if the commander isn't around. <br>\
-	Within Aegis you largely hold a desk job, your duties will rarely take you outside of the Aegis security wing, and you are not expected to interact with civilians. You have enough to deal with as is, and are probably the hardest working member of Aegis.<br>\
+	description = "You are the Second-in-Command of the local Ironhammer Security regiment, and the defacto leader if the commander isn't around. <br>\
+	Within Ironhammer you largely hold a desk job, your duties will rarely take you outside of the Ironhammer security wing, and you are not expected to interact with civilians. You have enough to deal with as is, and are probably the hardest working member of Ironhammer.<br>\
 	<br>\
 	You have several core duties:<br>\
 		1. As second in command, any of the commander's duties may be delegated to you, if they decide to do so. This means that at any time, you may be expected to handle funding, paperwork, disciplinary matters, planning combat tactics, or even carrying out executions. If there's no commander, these duties fall naturally to you. If there is a commander on site though, you shouldn't make these kind of decisions without consulting them.<br>\
@@ -113,25 +113,25 @@
 	loyalties = "You're a military man through and through. As such, your first loyalty is to the Commander, and thusly to the chain of command"
 
 /obj/landmark/join/start/gunserg
-	name = "Aegis Gunnery Sergeant"
+	name = "Ironhammer Gunnery Sergeant"
 	icon_state = "player-blue"
 	join_tag = /datum/job/gunserg
 
 
 /datum/job/inspector
-	title = "Aegis Inspector"
+	title = "Ironhammer Inspector"
 	flag = INSPECTOR
 	department = DEPARTMENT_SECURITY
 	department_flag = IRONHAMMER
-	faction = "NEV Northern Light"
+	faction = "CEV Eris"
 	total_positions = 2
 	spawn_positions = 2
-	supervisors = "the Aegis Commander"
+	supervisors = "the Ironhammer Commander"
 	selection_color = "#a7bbc6"
 	wage = WAGE_PROFESSIONAL
 	also_known_languages = list(LANGUAGE_NEOHONGO = 100)
 
-	wl_config_sec = TRUE		//Eclipse edit.
+//	wl_config_sec = TRUE		//Eclipse edit.
 
 	outfit_type = /decl/hierarchy/outfit/job/security/inspector
 
@@ -154,9 +154,9 @@
 	description = "You are the ship's detective, here to take care of the cases that aren't always what they seem, and suspects that aren't always caught red handed or ready to confess.<br>\
 	The inspector's job is to interrogate suspects, gather witness statements,  harvest evidence and reach a conclusion about the nature and culprit of a crime.<br>\
 	<br>\
-	You are a higher ranking Aegis operative, and you can give commands to operatives to aid you in your duties.  But this doesn't mean you should be commanding assaults. You're not any kind of tactical commander<br>\
+	You are a higher ranking Ironhammer operative, and you can give commands to operatives to aid you in your duties.  But this doesn't mean you should be commanding assaults. You're not any kind of tactical commander<br>\
 	<br>\
-	When there are no outstanding cases, your job is to go look for them. Mingle with civilians, interact and converse, sniff out leads about potential criminal activity. The Aegis budget can often include stipends to pay informers for any useful info"
+	When there are no outstanding cases, your job is to go look for them. Mingle with civilians, interact and converse, sniff out leads about potential criminal activity. The Ironhammer budget can often include stipends to pay informers for any useful info"
 
 	duties = "		Interview suspects and witnesses after a crime. Record important details of their statements, and look for inconsistencies.<br>\
 		Gather evidence and bring it back for processing<br>\
@@ -165,28 +165,28 @@
 
 	loyalties = "		As a detective, your loyalty is firstly, to the truth. Seek to uncover the true events of any crime.<br>\
 		<br>\
-		Secondly, you are loyal to Aegis and to the commander. Follow the chain of command."
+		Secondly, you are loyal to Ironhammer and to the commander. Follow the chain of command."
 
 /obj/landmark/join/start/inspector
-	name = "Aegis Inspector"
+	name = "Ironhammer Inspector"
 	icon_state = "player-blue"
 	join_tag = /datum/job/inspector
 
 
 /datum/job/medspec
-	title = "Aegis Medical Specialist"
+	title = "Ironhammer Medical Specialist"
 	flag = MEDSPEC
 	department = DEPARTMENT_SECURITY
 	department_flag = IRONHAMMER
-	faction = "NEV Northern Light"
+	faction = "CEV Eris"
 	total_positions = 2
 	spawn_positions = 2
-	supervisors = "the Aegis Commander"
+	supervisors = "the Ironhammer Commander"
 	selection_color = "#a7bbc6"
 	wage = WAGE_PROFESSIONAL
 	also_known_languages = list(LANGUAGE_NEOHONGO = 100)
 
-	wl_config_sec = TRUE		//Eclipse edit.
+//	wl_config_sec = TRUE		//Eclipse edit.
 
 	outfit_type = /decl/hierarchy/outfit/job/security/medspec
 
@@ -206,9 +206,9 @@
 							 /datum/computer_file/program/chem_catalog,
 							 /datum/computer_file/program/camera_monitor)
 
-	description = "You are a highly trained specialist within Aegis. You were probably a medical student or inexperienced doctor when you joined Aegis, and you thusly have a combination of medical and military training. You are not quite as knowledgeable as a civilian career doctor, not quite as much of a fighter as a dedicated Aegis operative, but strike a balance inbetween. Balance is the nature of your existence.<br>\
+	description = "You are a highly trained specialist within Ironhammer. You were probably a medical student or inexperienced doctor when you joined Ironhammer, and you thusly have a combination of medical and military training. You are not quite as knowledgeable as a civilian career doctor, not quite as much of a fighter as a dedicated Aegis operative, but strike a balance inbetween. Balance is the nature of your existence.<br>\
 	<br>\
-	Within Aegis, you have three roles to undertake. All of your roles can be delegated to others when needed - Lazarus Medical for roles 1 and 2, the Aegis Inspector for role 3. But you are often the best positioned to carry out these tasks, especially when time is short<br>\
+	Within Ironhammer, you have three roles to undertake. All of your roles can be delegated to others when needed - Lazarus Medical for roles 1 and 2, the Ironhammer Inspector for role 3. But you are often the best positioned to carry out these tasks, especially when time is short<br>\
 	<br>\
 	1. Field Medic. <br>\
 	You may be expected to serve on the backlines in a combat situation, treating and stabilising the wounded, making the call as to whether they can return to combat or leave by medivac. You may need to perform emergency trauma surgery in undesireable conditions. <br>\
@@ -218,29 +218,29 @@
 	During quiet times, when inmates are serving in the brig, you will often be required to treat prisoners, criminal suspects, and the condemned. Suicide attempts are common in prison, and you will often be treating a patient against their will, who is attempting to escape. When serving in this role, stay on guard, work closely with the gunnery sergeant, and keep control of the situation<br>\
 	<br>\
 	3. Forensic Specialist.<br>\
-	Solving crimes often requires scientific analysis, and expert rulings from a trusted source within Aegis. You will often be expected to analyze blood, chemicals and fingerprints, conduct autopsies, and submit your findings to help track down elusive culprits. In this task, you will work closely with the inspector, and if necessary, he often has the talents to perform these tasks. But his time is better spent questioning and interrogating people"
+	Solving crimes often requires scientific analysis, and expert rulings from a trusted source within Ironhammer. You will often be expected to analyze blood, chemicals and fingerprints, conduct autopsies, and submit your findings to help track down elusive culprits. In this task, you will work closely with the inspector, and if necessary, he often has the talents to perform these tasks. But his time is better spent questioning and interrogating people"
 
 /obj/landmark/join/start/medspec
-	name = "Aegis Medical Specialist"
+	name = "Ironhammer Medical Specialist"
 	icon_state = "player-blue"
 	join_tag = /datum/job/medspec
 
 
 /datum/job/ihoper
-	title = "Aegis Operative"
+	title = "Ironhammer Operative"
 	flag = IHOPER
 	department = DEPARTMENT_SECURITY
 	department_flag = IRONHAMMER
-	faction = "NEV Northern Light"
+	faction = "CEV Eris"
 	total_positions = 6
 	spawn_positions = 6
-	supervisors = "the Aegis Commander"
-	alt_titles = list("Aegis Cadet")
+	supervisors = "the Ironhammer Commander"
+	alt_titles = list("Ironhammer Cadet")
 	selection_color = "#a7bbc6"
 	wage = WAGE_LABOUR_HAZARD
 	also_known_languages = list(LANGUAGE_NEOHONGO = 100)
 
-	wl_config_sec = TRUE		//Eclipse edit.
+//	wl_config_sec = TRUE		//Eclipse edit.
 
 	outfit_type = /decl/hierarchy/outfit/job/security/ihoper
 
@@ -261,15 +261,15 @@
 	software_on_spawn = list(/datum/computer_file/program/digitalwarrant,
 							 /datum/computer_file/program/camera_monitor)
 
-	description = "You are the boots on the ground, the rifle in the window, the long arm of the law. You are the hand of Aegis, and the frontline against criminals, terrorists, and hostile lifeforms.<br>\
+	description = "You are the boots on the ground, the rifle in the window, the long arm of the law. You are the hand of Ironhammer, and the frontline against criminals, terrorists, and hostile lifeforms.<br>\
 	<br>\
 	You are a professional soldier and a hardened mercenary, no stranger to violence. You are required to employ your talents in order to bring an end to threats and conflict situations. As a consummate professional, you're often expected to put your pride aside, and work with others. Tactics and teamwork are vital.<br>\
 	<br>\
-	You are paid to act, not to think. When in doubt, follow orders, and leave the hard choices to someone else. Trust in your chain of command. Remember that you are the lowest rank in Aegis, and you report to everyone else in your organisation. The Inspector, Medspec, gunnery sergeant and Commander, are all your superior officers, their orders should be obeyed.<br>\
+	You are paid to act, not to think. When in doubt, follow orders, and leave the hard choices to someone else. Trust in your chain of command. Remember that you are the lowest rank in Ironhammer, and you report to everyone else in your organisation. The Inspector, Medspec, gunnery sergeant and Commander, are all your superior officers, their orders should be obeyed.<br>\
 	<br>\
 	When there are no standing orders, your ongoing task is to patrol the ship and be on the lookout for threats. Check in at departments, ask if there are any concerns, break up fights and do your best to prevent trouble before it spirals out of control. Wipe out roaches and other dangerous creatures wherever you encounter them.<br>\
 	<br>\
-	You have almost-total access to the ship in order to carry out your duties and reach threats quickly. Do not abuse this. It does not mean you can walk into anywhere you like, many areas are full of sensitive machinery and entering unnanounced can be harmful to your health. Do not steal from departments either. If it's not in the Aegis wing, it doesn't belong to you. Stealing from the Union is a good way to get shot in the back"
+	You have almost-total access to the ship in order to carry out your duties and reach threats quickly. Do not abuse this. It does not mean you can walk into anywhere you like, many areas are full of sensitive machinery and entering unnanounced can be harmful to your health. Do not steal from departments either. If it's not in the Ironhammer wing, it doesn't belong to you. Stealing from the Union is a good way to get shot in the back"
 
 	duties = "		Patrol the ship, provide a security presence, and look for trouble<br>\
 		Subdue and arrest criminals, terrorists, and other threats<br>\
@@ -277,14 +277,14 @@
 		Follow orders from the chain of command<br>\
 		Obey the law. You are not above it"
 
-	loyalties = "		As a soldier, your first loyalty is to the chain of command, which ends with the Aegis Commander. Their orders are supreme over all, even if they're currently leading a mutiny against the captain.<br>\
+	loyalties = "		As a soldier, your first loyalty is to the chain of command, which ends with the Ironhammer Commander. Their orders are supreme over all, even if they're currently leading a mutiny against the captain.<br>\
 		<br>\
-		Your second loyalty is to your fellow Aegis brothers in arms. As long as the company takes care of you, you should follow orders. But if you start being sent on suicide missions and treated as expendable fodder, that should change.<br>\
+		Your second loyalty is to your fellow Ironhammer brothers in arms. As long as the company takes care of you, you should follow orders. But if you start being sent on suicide missions and treated as expendable fodder, that should change.<br>\
 		<br>\
 		Your third loyalty is to humanity. You are still human under all that armour. If you're being ordered to slaughter civilians en masse, it may be time to start thinking for yourself."
 
 /obj/landmark/join/start/ihoper
-	name = "Aegis Operative"
+	name = "Ironhammer Operative"
 	icon_state = "player-blue"
 	join_tag = /datum/job/ihoper
 
