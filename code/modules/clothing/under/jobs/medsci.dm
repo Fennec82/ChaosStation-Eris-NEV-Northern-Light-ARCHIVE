@@ -131,3 +131,11 @@
 		bio = 10,
 		rad = 0
 	)
+
+
+/obj/item/clothing/under/rank/bioengineer //Chaosstation add - port bio-eng from eris
+	desc = "It's made of a special fiber that provides minor protection against biohazards. It has a bio-engineer rank stripe on it."
+	name = "moebius doctor's jumpsuit"
+	icon_state = "medical"
+	item_state = "medical"
+	permeability_coefficient = 0.50

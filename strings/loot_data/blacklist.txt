@@ -73,6 +73,7 @@
 /obj/item/part/gun/frame/c20r/moebius
 /obj/item/part/gun/frame/dallas
 /obj/item/part/gun/frame/sky_driver
+/obj/item/stack/thrown/nt/verutum
 /obj/item/stack/medical/bruise_pack/handmade
 /obj/item/stack/medical/advanced/bruise_pack/nt
 /obj/item/stack/medical/advanced/ointment/nt
@@ -151,6 +152,7 @@
 /obj/item/clothing/head/beret/sec/navy/officer
 /obj/item/clothing/head/beret/sec/navy/hos
 /obj/item/clothing/head/beret/sec/navy/warden
+/obj/item/clothing/head/beret/sec/navy/cadet_cap
 /obj/item/clothing/head/beret/engineering
 /obj/item/clothing/head/beret/purple
 /obj/item/clothing/head/beret/purple/sela
@@ -175,6 +177,7 @@
 /obj/item/clothing/mask/gas/cyborg
 /obj/item/clothing/mask/gas/poltergeist
 /obj/item/clothing/mask/chameleon
+/obj/item/clothing/mask/chameleon/voice
 /obj/item/clothing/mask/thief/adminspawn
 /obj/item/clothing/mask/thief/adminspawn/wolf
 /obj/item/clothing/mask/thief/adminspawn/hoxton
@@ -253,6 +256,7 @@
 /obj/item/clothing/under/rank/miner
 /obj/item/clothing/under/rank/roboticist
 /obj/item/clothing/under/rank/psych
+/obj/item/clothing/under/rank/bioengineer
 /obj/item/clothing/under/rank/warden
 /obj/item/clothing/under/rank/warden/skirt
 /obj/item/clothing/under/rank/security
@@ -268,6 +272,7 @@
 /obj/item/clothing/under/rank/cadet
 /obj/item/clothing/under/rank/bridge_officer
 /obj/item/clothing/under/rank/bridge_officer_skirt
+/obj/item/clothing/under/rank/cadet_skirt
 /obj/item/clothing/under/rank/dalphine
 /obj/item/clothing/under/excelsior
 /obj/item/clothing/under/turtleneck
@@ -353,6 +358,7 @@
 /obj/item/storage/box/syndie_kit/imp_spying
 /obj/item/storage/box/syndie_kit/imp_uplink
 /obj/item/storage/box/syndie_kit/space
+/obj/item/storage/box/syndie_kit/softsuit
 /obj/item/storage/box/syndie_kit/chameleon
 /obj/item/storage/box/syndie_kit/clerical
 /obj/item/storage/box/syndie_kit/spy
@@ -376,6 +382,10 @@
 /obj/item/storage/box/syndie_kit/slmagnum/highvelocity
 /obj/item/storage/box/syndie_kit/slpistol
 /obj/item/storage/box/syndie_kit/slpistol/hv
+/obj/item/storage/box/syndie_kit/slsrifle
+/obj/item/storage/box/syndie_kit/slsrifle/hv
+/obj/item/storage/box/syndie_kit/sllrifle
+/obj/item/storage/box/syndie_kit/sllrifle/hv
 /obj/item/storage/box/gun_upgrades
 /obj/item/storage/backpack/chameleon
 /obj/item/storage/bag/trash/holding
@@ -424,6 +434,7 @@
 /obj/item/device/spy_bug
 /obj/item/device/radio/spy
 /obj/item/device/radio/headset/syndicate
+/obj/item/device/radio/headset/mercenaries
 /obj/item/device/radio/headset/heads/captain
 /obj/item/device/radio/headset/heads/boff
 /obj/item/device/radio/headset/heads/ai_integrated
@@ -471,6 +482,7 @@
 /obj/item/device/pda/ai/pai
 /obj/item/device/encryptionkey
 /obj/item/device/encryptionkey/syndicate
+/obj/item/device/encryptionkey/mercenaries
 /obj/item/device/encryptionkey/binary
 /obj/item/device/encryptionkey/headset_sec
 /obj/item/device/encryptionkey/headset_eng
@@ -498,6 +510,7 @@
 /obj/item/device/integrated_circuit_printer/cyborg
 /obj/item/device/integrated_circuit_printer/debug
 /obj/item/device/gps/contractor
+/obj/item/device/synthesized_instrument/synthesizer/kira
 /obj/item/holyvacuum
 /obj/item/compressedfilth
 /obj/item/cell/large/potato
@@ -525,13 +538,6 @@
 /obj/item/computer_hardware/hard_drive/portable/design/armor/ih/bulletproof
 /obj/item/computer_hardware/hard_drive/portable/design/excelsior/core
 /obj/item/computer_hardware/hard_drive/portable/design/excelsior/weapons
-/obj/item/computer_hardware/hard_drive/portable/design/excelsior/drozd
-/obj/item/computer_hardware/hard_drive/portable/design/excelsior/ak47
-/obj/item/computer_hardware/hard_drive/portable/design/excelsior/vintorez
-/obj/item/computer_hardware/hard_drive/portable/design/excelsior/boltgun
-/obj/item/computer_hardware/hard_drive/portable/design/excelsior/makarov
-/obj/item/computer_hardware/hard_drive/portable/design/excelsior/maxim
-/obj/item/computer_hardware/hard_drive/portable/design/excelsior_weapons
 /obj/item/computer_hardware/hard_drive/portable/design/onestar
 /obj/item/tool_upgrade/augment/holding_tank
 /obj/item/tool_upgrade/augment/sanctifier
@@ -556,6 +562,12 @@
 /obj/item/rig_module/held
 /obj/item/rig_module/stealth_field
 /obj/item/rig_module/teleporter
+/obj/item/ammo_magazine/srifle/drum
+/obj/item/ammo_magazine/srifle/drum/empty
+/obj/item/ammo_magazine/srifle/drum/practice
+/obj/item/ammo_magazine/srifle/drum/hv
+/obj/item/ammo_magazine/srifle/drum/rubber
+/obj/item/ammo_magazine/srifle/drum/scrap
 /obj/item/ammo_magazine/a75
 /obj/item/ammo_magazine/a75/empty
 /obj/item/robot_parts/robot_component/armour/exosuit
@@ -618,6 +630,7 @@
 /obj/structure/closet/secure_closet/personal/agrolyte
 /obj/structure/closet/secure_closet/personal/doctor
 /obj/structure/closet/secure_closet/personal/paramedic
+/obj/structure/closet/secure_closet/personal/bioeng
 /obj/structure/closet/secure_closet/personal/scientist
 /obj/structure/closet/secure_closet/personal/security
 /obj/structure/closet/secure_closet/personal/boff

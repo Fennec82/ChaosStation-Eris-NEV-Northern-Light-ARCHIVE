@@ -137,3 +137,32 @@
 	new /obj/item/storage/box/pillbottles(src)
 	new /obj/item/storage/pouch/tubular/vial(src)
 
+
+/obj/structure/closet/secure_closet/personal/bioeng
+	name = "bio-engineer's locker"
+	req_access = list(access_cmo)
+	access_occupy = list(access_genetics)
+	icon_state = "med"
+
+/obj/structure/closet/secure_closet/personal/doctor/populate_contents()
+	if(prob(37))
+		new /obj/item/storage/backpack/medical(src)
+	else
+		new /obj/item/storage/backpack/satchel/medical(src)
+	new /obj/item/clothing/under/rank/bioengineer
+	new /obj/item/clothing/suit/storage/toggle/labcoat/bioengineer
+	new /obj/item/storage/freezer/medical
+	new /obj/item/device/lighting/toggleable/flashlight/pen
+	new /obj/item/storage/belt/medical/
+	new /obj/item/storage/backpack/satchel/medical(src)
+	new /obj/item/clothing/under/rank/bioengineer
+	new /obj/item/clothing/suit/storage/toggle/labcoat/bioengineer
+	new /obj/item/storage/freezer/medical
+	new /obj/item/device/lighting/toggleable/flashlight/pen
+	new /obj/item/storage/belt/medical/
+	new /obj/item/storage/backpack/satchel/medical(src)
+	new /obj/item/clothing/under/rank/bioengineer
+	new /obj/item/clothing/suit/storage/toggle/labcoat/bioengineer
+	new /obj/item/storage/freezer/medical
+	new /obj/item/device/lighting/toggleable/flashlight/pen
+	new /obj/item/storage/belt/medical/

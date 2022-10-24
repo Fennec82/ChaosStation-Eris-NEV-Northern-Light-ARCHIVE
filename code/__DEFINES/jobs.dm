@@ -2,13 +2,13 @@
 
 //Jobs depatment lists for use in constant expressions
 #define JOBS_SECURITY "Ironhammer Commander","Gunnery Sergeant","Ironhammer Inspector","Ironhammer Operative","Ironhammer Medical Specialist"
-#define JOBS_COMMAND "Captain","First Officer","Bridge Officer","Ironhammer Commander","Free Trade Union Merchant","Technomancer Exultant","Chief Medical Officer","Chief Science Officer"
+#define JOBS_COMMAND "Captain","First Officer","Bridge Officer","Ironhammer Commander","Free Trade Union Merchant","Technomancer Exultant","Moebius Medical Officer","Moebius Expedition Overseer"
 #define JOBS_ENGINEERING "Technomancer Exultant","Technomancer"
-#define JOBS_LAZARUS "Chief Medical Officer","Medical Doctor","Psychiatrist","Chemist","Paramedic", "Chief Science Officer","Scientist","Roboticist"
+#define JOBS_LAZARUS "Moebius Medical Officer","Medical Doctor","Psychiatrist","Chemist","Paramedic", "Moebius Expedition Overseer","Scientist","Roboticist", "Bio-Engineer"
 #define JOBS_CARGO "Free Trade Union Merchant","Union Cargo Technician","Union Miner"
 #define JOBS_CIVILIAN "Club Manager","Club Worker",ASSISTANT_TITLE
-#define JOBS_MEDICAL "Chief Medical Officer","Medical Doctor","Psychiatrist","Chemist","Paramedic"
-#define JOBS_SCIENCE "Chief Science Officer","Scientist","Roboticist"
+#define JOBS_MEDICAL "Moebius Medical Officer","Medical Doctor","Psychiatrist","Chemist","Paramedic", "Bio-Engineer"
+#define JOBS_SCIENCE "Moebius Expedition Overseer","Scientist","Roboticist"
 #define JOBS_CHURCH "NeoTheology Preacher","NeoTheology Acolyte","NeoTheology Custodian","NeoTheology Agrolyte",
 #define JOBS_NONHUMAN "AI","Robot","pAI"
 #define CREDITS "&cent;"

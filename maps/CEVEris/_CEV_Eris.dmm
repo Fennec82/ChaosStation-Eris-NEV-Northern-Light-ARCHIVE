@@ -166,8 +166,7 @@
 	},
 /obj/machinery/alarm{
 	dir = 8;
-	pixel_x = 25;
-	pixel_y = 0
+	pixel_x = 25
 	},
 /turf/simulated/floor/tiled/dark,
 /area/eris/security/range)
@@ -1493,8 +1492,7 @@
 /area/eris/security/prison)
 "adC" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 10;
-	icon_state = "intact"
+	dir = 10
 	},
 /obj/machinery/camera/network/prison,
 /obj/machinery/light_switch{
@@ -4858,7 +4856,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/door/airlock/glass_security{
-	id_tag = null;
 	layer = 2.8;
 	name = "Prison Hospital";
 	req_access = list(63)
@@ -5478,6 +5475,7 @@
 /obj/structure/table/glass,
 /obj/machinery/light,
 /obj/item/reagent_containers/spray/cleaner,
+/obj/item/storage/firstaid/surgery,
 /turf/simulated/floor/tiled/white/bluecorner,
 /area/eris/security/exerooms)
 "amq" = (
@@ -5773,7 +5771,6 @@
 /obj/machinery/embedded_controller/radio/airlock/airlock_controller{
 	id_tag = "pod_bay_airlock";
 	pixel_y = -24;
-	tag_airlock_mech_sensor = null;
 	tag_airpump = "pod_bay_airlock_pump";
 	tag_chamber_sensor = "pod_bay_airlock_sensor";
 	tag_exterior_door = "pod_bay_airlock_exterior";
@@ -7340,7 +7337,6 @@
 "aqH" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/freezer{
-	fluorescent = null;
 	frequency = 1380;
 	icon_state = "door_locked";
 	id_tag = "escape_pod_1_berth_hatch";
@@ -9053,7 +9049,6 @@
 /area/eris/quartermaster/disposaldrop)
 "aus" = (
 /obj/machinery/door/airlock/freezer{
-	fluorescent = null;
 	frequency = 1380;
 	icon_state = "door_locked";
 	id_tag = "escape_pod_1_hatch";
@@ -11615,7 +11610,7 @@
 	input_tag = "incernator_in";
 	name = "Incernator Control";
 	output_tag = "incernator_out";
-	sensors = list("incernator_sensor" = "Tank")
+	sensors = list("incernator_sensor"="Tank")
 	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -13297,7 +13292,6 @@
 /area/eris/maintenance/section2deck4central)
 "aER" = (
 /obj/machinery/door/airlock/freezer{
-	fluorescent = null;
 	frequency = 1380;
 	icon_state = "door_locked";
 	id_tag = "escape_pod_2_hatch";
@@ -13793,7 +13787,7 @@
 	input_tag = "tox_in";
 	name = "Plasma Supply Control";
 	output_tag = "tox_out";
-	sensors = list("tox_sensor" = "Tank")
+	sensors = list("tox_sensor"="Tank")
 	},
 /turf/simulated/floor/tiled/dark/danger,
 /area/eris/engineering/atmos)
@@ -14292,7 +14286,7 @@
 	input_tag = "waste_in";
 	name = "Gas Mix Tank Control";
 	output_tag = "waste_out";
-	sensors = list("waste_sensor" = "Tank")
+	sensors = list("waste_sensor"="Tank")
 	},
 /turf/simulated/floor/tiled/dark/danger,
 /area/eris/engineering/atmos)
@@ -14345,7 +14339,7 @@
 	input_tag = "n2o_in";
 	name = "Nitrous Oxide Supply Control";
 	output_tag = "n2o_out";
-	sensors = list("n2o_sensor" = "Tank")
+	sensors = list("n2o_sensor"="Tank")
 	},
 /turf/simulated/floor/tiled/dark/danger,
 /area/eris/engineering/atmos)
@@ -14621,7 +14615,7 @@
 	name = "Mixed Air Supply Control";
 	output_tag = "air_out";
 	pressure_setting = 2000;
-	sensors = list("air_sensor" = "Tank")
+	sensors = list("air_sensor"="Tank")
 	},
 /turf/simulated/floor/tiled/dark/danger,
 /area/eris/engineering/atmos)
@@ -14631,7 +14625,7 @@
 	input_tag = "co2_in";
 	name = "Carbon Dioxide Supply Control";
 	output_tag = "co2_out";
-	sensors = list("co2_sensor" = "Tank")
+	sensors = list("co2_sensor"="Tank")
 	},
 /turf/simulated/floor/tiled/dark/danger,
 /area/eris/engineering/atmos)
@@ -15800,8 +15794,6 @@
 /obj/machinery/atmospherics/omni/mixer{
 	active_power_usage = 7500;
 	tag_east = 2;
-	tag_east_con = null;
-	tag_north_con = null;
 	tag_south = 1;
 	tag_south_con = 0.79;
 	tag_west = 1;
@@ -16110,7 +16102,7 @@
 	input_tag = "n2_in";
 	name = "Nitrogen Supply Control";
 	output_tag = "n2_out";
-	sensors = list("n2_sensor" = "Tank")
+	sensors = list("n2_sensor"="Tank")
 	},
 /turf/simulated/floor/tiled/dark/danger,
 /area/eris/engineering/atmos)
@@ -16138,7 +16130,7 @@
 	input_tag = "o2_in";
 	name = "Oxygen Supply Control";
 	output_tag = "o2_out";
-	sensors = list("o2_sensor" = "Tank")
+	sensors = list("o2_sensor"="Tank")
 	},
 /turf/simulated/floor/tiled/dark/danger,
 /area/eris/engineering/atmos)
@@ -18409,7 +18401,6 @@
 "aRJ" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/freezer{
-	fluorescent = null;
 	frequency = 1380;
 	icon_state = "door_locked";
 	id_tag = "escape_pod_2_berth_hatch";
@@ -21725,7 +21716,7 @@
 /area/eris/security/evidencestorage)
 "aZa" = (
 /obj/machinery/vending/containers{
-	products = list(/obj/structure/closet/crate/freezer = 4, /obj/structure/closet = 6, /obj/structure/closet/crate = 10)
+	products = list(/obj/structure/closet/crate/freezer=4,/obj/structure/closet=6,/obj/structure/closet/crate=10)
 	},
 /turf/simulated/floor/tiled/steel,
 /area/eris/quartermaster/hangarsupply)
@@ -24873,7 +24864,6 @@
 "bfa" = (
 /obj/structure/closet/wardrobe/color/grey,
 /obj/item/device/radio/intercom{
-	dir = 2;
 	pixel_y = 24
 	},
 /obj/spawner/lowkeyrandom,
@@ -25169,7 +25159,6 @@
 /area/eris/maintenance/disposal)
 "bfP" = (
 /obj/machinery/computer/cryopod{
-	density = 0;
 	pixel_y = 32
 	},
 /turf/simulated/floor/tiled/steel,
@@ -25396,8 +25385,7 @@
 "bgs" = (
 /obj/machinery/alarm{
 	dir = 8;
-	pixel_x = 25;
-	pixel_y = 0
+	pixel_x = 25
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -25532,8 +25520,7 @@
 	},
 /obj/machinery/alarm{
 	dir = 4;
-	pixel_x = -26;
-	pixel_y = 0
+	pixel_x = -26
 	},
 /turf/simulated/floor/tiled/steel,
 /area/eris/crew_quarters/sleep/cryo)
@@ -27126,6 +27113,7 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
 	},
+/obj/landmark/join/start/bioengineer,
 /turf/simulated/floor/tiled/white/brown_perforated,
 /area/eris/rnd/lab)
 "bkg" = (
@@ -28804,7 +28792,6 @@
 "bnC" = (
 /obj/machinery/alarm{
 	dir = 4;
-	icon_state = "alarm0";
 	pixel_x = -26
 	},
 /turf/simulated/floor/tiled/steel,
@@ -29019,9 +29006,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/light{
-	dir = 8;
-	icon_state = "tube1";
-	pixel_y = 0
+	dir = 8
 	},
 /turf/simulated/floor/tiled/steel,
 /area/eris/crew_quarters/sleep/cryo)
@@ -30712,7 +30697,6 @@
 "bsw" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/glass_medical{
-	id_tag = null;
 	name = "Isolation B";
 	req_access = list(5)
 	},
@@ -30728,7 +30712,6 @@
 "bsy" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/glass_medical{
-	id_tag = null;
 	name = "Isolation C";
 	req_access = list(5)
 	},
@@ -30827,7 +30810,6 @@
 "bsM" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/glass_medical{
-	id_tag = null;
 	name = "Isolation A";
 	req_access = list(5)
 	},
@@ -31232,7 +31214,6 @@
 "btH" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/glass_medical{
-	id_tag = null;
 	name = "Monkey Pen";
 	req_access = list(5)
 	},
@@ -31856,7 +31837,7 @@
 	frequency = 1443;
 	level = 3;
 	name = "Distribution and Waste Monitor";
-	sensors = list("mair_in_meter" = "Mixed Air In", "air_sensor" = "Mixed Air Supply Tank", "mair_out_meter" = "Mixed Air Out", "dloop_atm_meter" = "Distribution Loop", "wloop_atm_meter" = "Waste Loop")
+	sensors = list("mair_in_meter"="Mixed Air In","air_sensor"="Mixed Air Supply Tank","mair_out_meter"="Mixed Air Out","dloop_atm_meter"="Distribution Loop","wloop_atm_meter"="Waste Loop")
 	},
 /obj/machinery/camera/network/engineering{
 	dir = 1
@@ -31965,9 +31946,7 @@
 /turf/simulated/floor/plating,
 /area/eris/rnd/lab)
 "bvs" = (
-/obj/machinery/sorter/biomatter{
-	accept_output_side = 8
-	},
+/obj/machinery/sorter/biomatter,
 /turf/simulated/floor/tiled/dark/gray_platform,
 /area/eris/maintenance/section3deck5starboard)
 "bvt" = (
@@ -32273,7 +32252,6 @@
 "bvZ" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/glass_medical{
-	id_tag = null;
 	name = "Medbay Operating Room";
 	req_access = list(5)
 	},
@@ -33118,7 +33096,7 @@
 	dir = 8;
 	frequency = 1441;
 	name = "Tank Monitor";
-	sensors = list("n2_sensor" = "Nitrogen", "o2_sensor" = "Oxygen", "co2_sensor" = "Carbon Dioxide", "tox_sensor" = "Toxins", "n2o_sensor" = "Nitrous Oxide", "waste_sensor" = "Gas Mix Tank")
+	sensors = list("n2_sensor"="Nitrogen","o2_sensor"="Oxygen","co2_sensor"="Carbon Dioxide","tox_sensor"="Toxins","n2o_sensor"="Nitrous Oxide","waste_sensor"="Gas Mix Tank")
 	},
 /obj/machinery/power/apc{
 	name = "South APC";
@@ -36863,8 +36841,7 @@
 /area/eris/maintenance/substation/section4)
 "bGu" = (
 /obj/machinery/light{
-	dir = 4;
-	icon_state = "tube1"
+	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
 /area/eris/medical/surgery)
@@ -40063,7 +40040,6 @@
 "bMZ" = (
 /obj/structure/cryofeed{
 	dir = 4;
-	icon_state = "cryo_rear";
 	tag = "icon-cryo_rear (EAST)"
 	},
 /turf/simulated/floor/tiled/steel/gray_platform,
@@ -41653,8 +41629,7 @@
 /area/eris/maintenance/section1deck3central)
 "bQx" = (
 /obj/machinery/light{
-	dir = 8;
-	icon_state = "tube1"
+	dir = 8
 	},
 /turf/simulated/floor/tiled/steel/gray_perforated,
 /area/eris/neotheology/chapelritualroom)
@@ -42263,7 +42238,6 @@
 "bRP" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/glass_medical{
-	id_tag = null;
 	name = "Cloning";
 	req_access = list(5)
 	},
@@ -44003,8 +43977,7 @@
 /obj/machinery/power/apc{
 	dir = 8;
 	name = "West APC";
-	pixel_x = -28;
-	pixel_y = 0
+	pixel_x = -28
 	},
 /obj/structure/cable/green{
 	d2 = 4;
@@ -44136,12 +44109,10 @@
 /area/eris/rnd/server)
 "bWs" = (
 /obj/machinery/cryopod{
-	dir = 8;
 	icon_state = "cryopod_0";
 	tag = "icon-cryopod_0 (EAST)"
 	},
 /obj/machinery/computer/cryopod{
-	density = 0;
 	pixel_y = 32
 	},
 /turf/simulated/floor/tiled/dark/techfloor_grid,
@@ -44503,7 +44474,6 @@
 "bXe" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/glass_security{
-	id_tag = null;
 	layer = 2.8;
 	name = "Secuity Access";
 	req_access = list(1)
@@ -44651,7 +44621,6 @@
 /area/eris/security/lobby)
 "bXz" = (
 /obj/machinery/cryopod{
-	dir = 8;
 	icon_state = "cryopod_0";
 	tag = "icon-cryopod_0 (EAST)"
 	},
@@ -48165,7 +48134,6 @@
 "cfu" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/glass_medical{
-	id_tag = null;
 	name = "Medbay Therapy";
 	req_access = list(5)
 	},
@@ -49110,7 +49078,6 @@
 "chD" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/glass_medical{
-	id_tag = null;
 	name = "Patient Room";
 	req_access = newlist()
 	},
@@ -49801,7 +49768,7 @@
 	input_tag = "toxins1_in";
 	name = "Mixing Chamber 1 Monitor";
 	output_tag = "toxins1_out";
-	sensors = list("toxins_mixing_1" = "Mixing Chamber - 1")
+	sensors = list("toxins_mixing_1"="Mixing Chamber - 1")
 	},
 /turf/simulated/floor/tiled/white/techfloor_grid,
 /area/eris/rnd/mixing)
@@ -49953,7 +49920,7 @@
 	dir = 8;
 	frequency = 1430;
 	name = "Mixing Chamber Monitor";
-	sensors = list("toxins_mixing_1" = "Mixing Chamber - 1", "toxins_mixing_2" = "Mixing Chamber - 2")
+	sensors = list("toxins_mixing_1"="Mixing Chamber - 1","toxins_mixing_2"="Mixing Chamber - 2")
 	},
 /turf/simulated/floor/tiled/white/gray_perforated,
 /area/eris/rnd/mixing)
@@ -50215,7 +50182,7 @@
 	input_tag = "toxins2_in";
 	name = "Mixing Chamber 2 Monitor";
 	output_tag = "toxins2_out";
-	sensors = list("toxins_mixing_2" = "Mixing Chamber - 2")
+	sensors = list("toxins_mixing_2"="Mixing Chamber - 2")
 	},
 /turf/simulated/floor/tiled/white/techfloor_grid,
 /area/eris/rnd/mixing)
@@ -51902,6 +51869,7 @@
 	pixel_x = -2;
 	pixel_y = 4
 	},
+/obj/item/rig_module/autodoc,
 /turf/simulated/floor/tiled/white/gray_platform,
 /area/eris/command/meo)
 "coq" = (
@@ -52275,7 +52243,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/effect/floor_decal/eclipse/laz3,
+/obj/effect/floor_decal/fact_plaque/rnd1,
 /turf/simulated/floor/tiled/white,
 /area/eris/rnd/mixing)
 "cph" = (
@@ -52288,7 +52256,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 1
 	},
-/obj/effect/floor_decal/eclipse/laz4,
+/obj/effect/floor_decal/fact_plaque/rnd2,
 /turf/simulated/floor/tiled/white,
 /area/eris/rnd/mixing)
 "cpi" = (
@@ -52701,12 +52669,12 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/effect/floor_decal/eclipse/laz1,
+/obj/effect/floor_decal/fact_plaque/rnd3,
 /turf/simulated/floor/tiled/white,
 /area/eris/rnd/mixing)
 "cqf" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/effect/floor_decal/eclipse/laz2,
+/obj/effect/floor_decal/fact_plaque/rnd4,
 /turf/simulated/floor/tiled/white,
 /area/eris/rnd/mixing)
 "cqg" = (
@@ -55893,8 +55861,7 @@
 	icon_state = "2-4"
 	},
 /obj/machinery/light{
-	dir = 8;
-	icon_state = "tube1"
+	dir = 8
 	},
 /turf/simulated/floor/tiled/dark/golden,
 /area/eris/neotheology/chapel)
@@ -60048,8 +60015,7 @@
 	dir = 1
 	},
 /obj/machinery/light{
-	dir = 8;
-	icon_state = "tube1"
+	dir = 8
 	},
 /turf/simulated/floor/tiled/dark/golden,
 /area/eris/neotheology/chapel)
@@ -60696,8 +60662,7 @@
 /area/eris/maintenance/section2deck2starboard)
 "cIH" = (
 /obj/machinery/light{
-	dir = 8;
-	icon_state = "tube1"
+	dir = 8
 	},
 /obj/item/device/radio/intercom{
 	dir = 4;
@@ -61164,8 +61129,7 @@
 "cJO" = (
 /obj/structure/cyberplant,
 /obj/structure/extinguisher_cabinet{
-	pixel_x = -27;
-	pixel_y = 0
+	pixel_x = -27
 	},
 /turf/simulated/floor/tiled/steel/gray_platform,
 /area/eris/crew_quarters/sleep/cryo)
@@ -64733,25 +64697,24 @@
 	},
 /area/shuttle/mining/station)
 "cSI" = (
-/obj/machinery/mining/drill,
+/obj/machinery/porta_turret/mining,
 /turf/simulated/shuttle/floor/mining{
 	icon_state = "11,17"
 	},
 /area/shuttle/mining/station)
 "cSJ" = (
-/obj/machinery/mining/drill,
+/obj/machinery/porta_turret/mining,
 /turf/simulated/shuttle/floor/mining{
 	icon_state = "12,17"
 	},
 /area/shuttle/mining/station)
 "cSK" = (
-/obj/machinery/mining/brace,
 /turf/simulated/shuttle/floor/mining{
 	icon_state = "13,17"
 	},
 /area/shuttle/mining/station)
 "cSL" = (
-/obj/machinery/mining/brace,
+/obj/machinery/mining/deep_drill,
 /turf/simulated/shuttle/floor/mining{
 	icon_state = "14,17"
 	},
@@ -65002,13 +64965,12 @@
 	},
 /area/shuttle/mining/station)
 "cTm" = (
-/obj/machinery/mining/brace,
 /turf/simulated/shuttle/floor/mining{
 	icon_state = "13,16"
 	},
 /area/shuttle/mining/station)
 "cTn" = (
-/obj/machinery/mining/brace,
+/obj/machinery/mining/deep_drill,
 /turf/simulated/shuttle/floor/mining{
 	icon_state = "14,16"
 	},
@@ -68190,6 +68152,36 @@
 /obj/item/stack/material/plasma{
 	amount = 25
 	},
+/obj/item/stack/material/plasma{
+	amount = 25
+	},
+/obj/item/stack/material/plasma{
+	amount = 25
+	},
+/obj/item/stack/material/plasma{
+	amount = 25
+	},
+/obj/item/stack/material/plasma{
+	amount = 25
+	},
+/obj/item/stack/material/plasma{
+	amount = 25
+	},
+/obj/item/stack/material/plasma{
+	amount = 25
+	},
+/obj/item/stack/material/plasma{
+	amount = 25
+	},
+/obj/item/stack/material/plasma{
+	amount = 25
+	},
+/obj/item/stack/material/plasma{
+	amount = 25
+	},
+/obj/item/stack/material/plasma{
+	amount = 25
+	},
 /turf/simulated/floor,
 /area/shuttle/mining/station)
 "daH" = (
@@ -68431,7 +68423,6 @@
 	opacity = 0
 	},
 /obj/machinery/door/airlock/glass_medical{
-	id_tag = null;
 	name = "Medical Bay";
 	req_access = list(5)
 	},
@@ -68921,7 +68912,6 @@
 	dir = 4
 	},
 /obj/machinery/door/airlock/glass_medical{
-	id_tag = null;
 	name = "Patient Room";
 	req_access = newlist()
 	},
@@ -71825,8 +71815,7 @@
 	dir = 4
 	},
 /obj/machinery/button/windowtint{
-	pixel_x = -28;
-	pixel_y = 0
+	pixel_x = -28
 	},
 /turf/simulated/floor/wood,
 /area/eris/command/meo/quarters)
@@ -74035,7 +74024,6 @@
 "dns" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/glass_medical{
-	id_tag = null;
 	name = "Medical Isolator";
 	req_access = list(5)
 	},
@@ -74184,7 +74172,6 @@
 "dnF" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/glass_medical{
-	id_tag = null;
 	name = "Medical Isolator";
 	req_access = list(5)
 	},
@@ -75524,7 +75511,9 @@
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section3deck4central)
 "dqE" = (
-/obj/machinery/gravity_generator/main/station,
+/obj/machinery/gravity_generator/main/station{
+	name = "gravity generator"
+	},
 /turf/simulated/floor/tiled/dark/gray_perforated,
 /area/eris/engineering/gravity_generator)
 "dqF" = (
@@ -75621,7 +75610,6 @@
 "dqQ" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/glass_medical{
-	id_tag = null;
 	name = "Chemistry Lab";
 	req_access = list(33)
 	},
@@ -76437,7 +76425,6 @@
 /area/eris/engineering/propulsion/left)
 "dsI" = (
 /obj/machinery/power/apc{
-	dir = 2;
 	name = "South APC";
 	pixel_y = -28
 	},
@@ -76455,7 +76442,6 @@
 "dsK" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/glass_medical{
-	id_tag = null;
 	name = "Medical Bay";
 	req_access = list(5)
 	},
@@ -76486,6 +76472,14 @@
 	pixel_y = -8
 	},
 /obj/structure/table/standard,
+/obj/item/packageWrap,
+/obj/item/hand_labeler,
+/obj/structure/table/standard{
+	name = "plastic table frame"
+	},
+/obj/structure/table/standard{
+	name = "plastic table frame"
+	},
 /turf/simulated/floor/tiled/white/brown_platform,
 /area/eris/medical/chemistry)
 "dsO" = (
@@ -76560,7 +76554,6 @@
 "dsW" = (
 /obj/machinery/light,
 /obj/machinery/newscaster{
-	pixel_x = 0;
 	pixel_y = -27
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -76723,7 +76716,7 @@
 /obj/machinery/light,
 /obj/machinery/vending/wallmed/lobby{
 	pixel_y = -28;
-	products = list(/obj/item/device/scanner/health = 6, /obj/item/stack/medical/bruise_pack = 6, /obj/item/stack/medical/ointment = 6, /obj/item/stack/medical/advanced/bruise_pack = 2, /obj/item/stack/medical/advanced/ointment = 2, /obj/item/stack/nanopaste = 2, /obj/item/reagent_containers/hypospray/autoinjector/antitoxin = 6, /obj/item/reagent_containers/syringe/antitoxin = 5, /obj/item/reagent_containers/hypospray/autoinjector/tricordrazine = 6, /obj/item/reagent_containers/syringe/tricordrazine = 5, /obj/item/reagent_containers/hypospray/autoinjector/spaceacillin = 6, /obj/item/reagent_containers/syringe/spaceacillin = 2, /obj/item/implantcase/death_alarm = 2, /obj/item/implanter = 2, /obj/item/stack/medical/splint = 6)
+	products = list(/obj/item/device/scanner/health=6,/obj/item/stack/medical/bruise_pack=6,/obj/item/stack/medical/ointment=6,/obj/item/stack/medical/advanced/bruise_pack=2,/obj/item/stack/medical/advanced/ointment=2,/obj/item/stack/nanopaste=2,/obj/item/reagent_containers/hypospray/autoinjector/antitoxin=6,/obj/item/reagent_containers/syringe/antitoxin=5,/obj/item/reagent_containers/hypospray/autoinjector/tricordrazine=6,/obj/item/reagent_containers/syringe/tricordrazine=5,/obj/item/reagent_containers/hypospray/autoinjector/spaceacillin=6,/obj/item/reagent_containers/syringe/spaceacillin=2,/obj/item/implantcase/death_alarm=2,/obj/item/implanter=2,/obj/item/stack/medical/splint=6)
 	},
 /turf/simulated/floor/tiled/white,
 /area/eris/medical/reception)
@@ -77160,7 +77153,6 @@
 "duq" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/glass_medical{
-	id_tag = null;
 	name = "Medical Bay";
 	req_access = list(5)
 	},
@@ -78857,6 +78849,8 @@
 /area/eris/maintenance/oldbridge)
 "dyu" = (
 /obj/structure/closet/secure_closet/reinforced/CMO,
+/obj/item/rig/medical/equipped,
+/obj/item/rig_module/autodoc,
 /turf/simulated/floor/tiled/white/brown_perforated,
 /area/eris/command/mbo)
 "dyv" = (
@@ -80687,7 +80681,7 @@
 "dCC" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/effect/floor_decal/eclipse/laz3,
+/obj/effect/floor_decal/fact_plaque/med1,
 /turf/simulated/floor/tiled/white,
 /area/eris/medical/reception)
 "dCD" = (
@@ -80715,7 +80709,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/effect/floor_decal/eclipse/laz4,
+/obj/effect/floor_decal/fact_plaque/med2,
 /turf/simulated/floor/tiled/white,
 /area/eris/medical/reception)
 "dCH" = (
@@ -80780,6 +80774,7 @@
 	dir = 4
 	},
 /obj/structure/table/standard,
+/obj/machinery/electrolyzer,
 /turf/simulated/floor/tiled/white/brown_platform,
 /area/eris/medical/chemistry)
 "dCP" = (
@@ -80926,7 +80921,7 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
-/obj/effect/floor_decal/eclipse/laz1,
+/obj/effect/floor_decal/fact_plaque/med3,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 4
 	},
@@ -80936,7 +80931,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/effect/floor_decal/eclipse/laz2,
+/obj/effect/floor_decal/fact_plaque/med4,
 /turf/simulated/floor/tiled/white,
 /area/eris/medical/reception)
 "dDh" = (
@@ -81268,6 +81263,7 @@
 	name = "East APC";
 	pixel_x = 28
 	},
+/obj/machinery/chem_heater,
 /turf/simulated/floor/tiled/white/brown_platform,
 /area/eris/medical/chemistry)
 "dDV" = (
@@ -81539,7 +81535,6 @@
 	dir = 4
 	},
 /obj/machinery/door/airlock/glass_medical{
-	id_tag = null;
 	name = "Chemistry Lab";
 	req_access = list(33)
 	},
@@ -83801,7 +83796,7 @@
 	dir = 1;
 	frequency = 1441;
 	name = "Tank Monitor";
-	sensors = list("n2_sensor" = "Nitrogen", "o2_sensor" = "Oxygen", "co2_sensor" = "Carbon Dioxide", "tox_sensor" = "Toxins", "n2o_sensor" = "Nitrous Oxide", "waste_sensor" = "Gas Mix Tank")
+	sensors = list("n2_sensor"="Nitrogen","o2_sensor"="Oxygen","co2_sensor"="Carbon Dioxide","tox_sensor"="Toxins","n2o_sensor"="Nitrous Oxide","waste_sensor"="Gas Mix Tank")
 	},
 /turf/simulated/floor/tiled/steel/brown_platform,
 /area/eris/command/exultant)
@@ -84668,7 +84663,7 @@
 	input_tag = "cooling_in";
 	name = "Engine Cooling Control";
 	output_tag = "cooling_out";
-	sensors = list("engine_sensor" = "Engine Core")
+	sensors = list("engine_sensor"="Engine Core")
 	},
 /turf/simulated/floor/tiled/steel/gray_perforated,
 /area/eris/engineering/engine_room)
@@ -84886,7 +84881,7 @@
 	input_tag = "left_propulsion_in";
 	name = "Left Propulsion Control";
 	output_tag = "left_propulsion_out";
-	sensors = list("left_propulsion_sensor" = "Tank")
+	sensors = list("left_propulsion_sensor"="Tank")
 	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
@@ -85137,7 +85132,7 @@
 	input_tag = "tox_in";
 	name = "Toxin Supply Control";
 	output_tag = "tox_out";
-	sensors = list("tox_sensor" = "Tank")
+	sensors = list("tox_sensor"="Tank")
 	},
 /turf/simulated/floor/tiled/steel/gray_platform,
 /area/eris/engineering/propulsion/left)
@@ -85352,7 +85347,7 @@
 	input_tag = "tox_in";
 	name = "Toxin Supply Control";
 	output_tag = "tox_out";
-	sensors = list("tox_sensor" = "Tank")
+	sensors = list("tox_sensor"="Tank")
 	},
 /turf/simulated/floor/tiled/steel/gray_platform,
 /area/eris/engineering/propulsion/right)
@@ -85509,7 +85504,7 @@
 	input_tag = "right_propulsion_in";
 	name = "Right Propulsion Control";
 	output_tag = "right_propulsion_out";
-	sensors = list("right_propulsion_sensor" = "Tank")
+	sensors = list("right_propulsion_sensor"="Tank")
 	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
@@ -85619,7 +85614,7 @@
 	input_tag = "o2_in";
 	name = "Oxygen Supply Control";
 	output_tag = "o2_out";
-	sensors = list("o2_sensor" = "Tank")
+	sensors = list("o2_sensor"="Tank")
 	},
 /turf/simulated/floor/tiled/steel/gray_platform,
 /area/eris/engineering/propulsion/left)
@@ -85646,7 +85641,7 @@
 	input_tag = "o2_in";
 	name = "Oxygen Supply Control";
 	output_tag = "o2_out";
-	sensors = list("o2_sensor" = "Tank")
+	sensors = list("o2_sensor"="Tank")
 	},
 /turf/simulated/floor/tiled/steel/gray_platform,
 /area/eris/engineering/propulsion/right)
@@ -87245,11 +87240,9 @@
 /obj/item/reagent_containers/glass/bucket,
 /obj/item/mop,
 /obj/machinery/button/remote/blast_door{
-	dir = 2;
 	id = "maint_hatch_lower_cargo";
 	name = "Maintenance Hatch Control";
 	pixel_x = 24;
-	pixel_y = 0;
 	req_access = null
 	},
 /turf/simulated/floor/plating,
@@ -88096,7 +88089,6 @@
 /area/eris/engineering/atmos)
 "dTf" = (
 /obj/machinery/power/apc{
-	dir = 2;
 	name = "South APC";
 	pixel_y = -28
 	},
@@ -89124,11 +89116,9 @@
 /obj/item/reagent_containers/glass/bucket,
 /obj/item/mop,
 /obj/machinery/button/remote/blast_door{
-	dir = 2;
 	id = "maint_hatch_lower_cargo";
 	name = "Maintenance Hatch Control";
 	pixel_x = 24;
-	pixel_y = 0;
 	req_access = null
 	},
 /turf/simulated/floor/plating,
@@ -95722,17 +95712,18 @@
 /turf/simulated/floor/tiled/white,
 /area/eris/medical/genetics)
 "ekx" = (
-/obj/structure/table/standard,
 /obj/item/storage/box/monkeycubes,
-/obj/item/extinguisher,
+/obj/structure/table/standard,
 /obj/machinery/light{
 	dir = 4
 	},
+/obj/item/extinguisher,
 /obj/machinery/power/apc{
 	dir = 1;
 	name = "North APC";
 	pixel_y = 28
 	},
+/obj/item/storage/box/monkeycubes,
 /obj/structure/cable/green{
 	d2 = 8;
 	icon_state = "0-8"
@@ -96746,6 +96737,7 @@
 /obj/structure/bed/chair/office/light{
 	dir = 1
 	},
+/obj/landmark/join/start/bioengineer,
 /turf/simulated/floor/tiled/white,
 /area/eris/medical/genetics)
 "enk" = (
@@ -97348,8 +97340,6 @@
 "eoJ" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/toolbox/mechanical,
-/obj/item/handcuffs,
-/obj/item/melee/baton,
 /turf/simulated/floor/tiled/steel/monofloor,
 /area/eris/medical/genetics)
 "eoK" = (
@@ -103390,6 +103380,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
+/obj/machinery/centrifuge,
 /turf/simulated/floor/tiled/white/brown_platform,
 /area/eris/medical/chemistry)
 "eBt" = (
@@ -104131,6 +104122,8 @@
 	dir = 4;
 	pixel_x = -26
 	},
+/obj/item/stack/material/plasma/full,
+/obj/item/stack/material/plasma/full,
 /turf/simulated/floor/tiled/white/brown_platform,
 /area/eris/medical/chemistry)
 "eCY" = (
@@ -105421,7 +105414,7 @@
 	frequency = 1443;
 	level = 3;
 	name = "Distribution and Waste Monitor";
-	sensors = list("mair_in_meter" = "Mixed Air In", "air_sensor" = "Mixed Air Supply Tank", "mair_out_meter" = "Mixed Air Out", "dloop_atm_meter" = "Distribution Loop", "wloop_atm_meter" = "Engine Waste")
+	sensors = list("mair_in_meter"="Mixed Air In","air_sensor"="Mixed Air Supply Tank","mair_out_meter"="Mixed Air Out","dloop_atm_meter"="Distribution Loop","wloop_atm_meter"="Engine Waste")
 	},
 /obj/machinery/light{
 	dir = 8
@@ -106387,7 +106380,6 @@
 /area/eris/security/main)
 "gsO" = (
 /obj/machinery/door/airlock/glass_medical{
-	id_tag = null;
 	name = "Monkey Isolator";
 	req_access = list(5)
 	},
@@ -106418,8 +106410,7 @@
 /area/eris/engineering/construction)
 "gGt" = (
 /obj/item/modular_computer/console/preset/engineering/power{
-	dir = 8;
-	icon_state = "console"
+	dir = 8
 	},
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/eris/engineering/engine_room)
@@ -106549,6 +106540,23 @@
 /obj/spawner/scrap/sparse/low_chance,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section3deck5port)
+"hxl" = (
+/obj/structure/table/rack,
+/obj/machinery/door/blast/shutters/glass{
+	id = "Armoury";
+	name = "Armoury showcase"
+	},
+/obj/item/ammo_magazine/lrifle/pk,
+/obj/item/ammo_magazine/lrifle/pk,
+/obj/item/ammo_magazine/lrifle/pk,
+/obj/item/ammo_magazine/lrifle/pk,
+/obj/item/ammo_magazine/lrifle/pk,
+/obj/item/ammo_magazine/lrifle/pk,
+/obj/item/ammo_magazine/lrifle/pk,
+/obj/item/ammo_magazine/lrifle/pk,
+/obj/item/ammo_magazine/lrifle/pk,
+/turf/simulated/floor/tiled/dark/cargo,
+/area/eris/security/armory)
 "hAw" = (
 /obj/spawner/scrap/sparse/low_chance,
 /turf/simulated/floor/plating/under,
@@ -106682,7 +106690,6 @@
 	frequency = 1379;
 	master_tag = "trading_dock";
 	name = "Trading Dock Internal Access Button";
-	pixel_x = 0;
 	pixel_y = 24
 	},
 /turf/simulated/floor/tiled/steel,
@@ -106738,6 +106745,17 @@
 	},
 /turf/simulated/floor/tiled/steel,
 /area/eris/hallway/main/section3)
+"ipc" = (
+/obj/structure/table/rack,
+/obj/machinery/door/blast/shutters/glass{
+	id = "Armoury";
+	name = "Armoury showcase"
+	},
+/obj/item/gun/projectile/automatic/lmg/tk,
+/obj/item/gun/projectile/automatic/lmg/tk,
+/obj/item/gun/projectile/automatic/lmg/tk,
+/turf/simulated/floor/tiled/dark/cargo,
+/area/eris/security/armory)
 "iqF" = (
 /turf/simulated/floor/tiled/dark,
 /area/eris/command/bridgetoilet)
@@ -106904,6 +106922,10 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/steel,
 /area/eris/crew_quarters/sleep_male/toilet_male)
+"jhZ" = (
+/obj/structure/closet/secure_closet/personal,
+/turf/simulated/floor/reinforced,
+/area/eris/medical/genetics)
 "jiP" = (
 /obj/machinery/door/blast/regular{
 	id = "scannerroom";
@@ -106934,7 +106956,6 @@
 /area/eris/hallway/side/eschangarb)
 "jnC" = (
 /obj/machinery/airlock_sensor{
-	frequency = 1379;
 	id_tag = "trading_dock_internal_sensor";
 	name = "Internal Trading Dock Airlock Sensor";
 	pixel_x = -5;
@@ -107285,6 +107306,7 @@
 /area/eris/medical/virology)
 "lcL" = (
 /obj/structure/table/standard,
+/obj/machinery/chemical_dispenser/industrial,
 /turf/simulated/floor/tiled/white/brown_platform,
 /area/eris/medical/chemistry)
 "ldj" = (
@@ -107498,8 +107520,7 @@
 /area/eris/maintenance/section2deck5starboard)
 "lPs" = (
 /obj/machinery/light{
-	dir = 8;
-	icon_state = "tube1"
+	dir = 8
 	},
 /turf/simulated/floor/tiled/steel,
 /area/eris/crew_quarters/sleep)
@@ -107602,7 +107623,6 @@
 	},
 /obj/machinery/shield_diffuser,
 /obj/machinery/airlock_sensor/shuttle_exterior{
-	frequency = 1379;
 	id_tag = "trading_dock_external_sensor";
 	name = "external trading dock sensor";
 	pixel_y = -24;
@@ -107653,6 +107673,46 @@
 	},
 /turf/simulated/floor/tiled/steel/monofloor,
 /area/eris/quartermaster/hangarsupply)
+"mpE" = (
+/obj/structure/closet/secure_closet/personal/bioeng,
+/obj/item/melee/baton,
+/obj/item/melee/baton,
+/obj/item/melee/baton,
+/obj/item/handcuffs,
+/obj/item/handcuffs,
+/obj/item/handcuffs,
+/obj/item/device/lighting/toggleable/flashlight/pen,
+/obj/item/device/lighting/toggleable/flashlight/pen,
+/obj/item/device/lighting/toggleable/flashlight/pen,
+/obj/item/clothing/under/rank/bioengineer,
+/obj/item/clothing/under/rank/bioengineer,
+/obj/item/clothing/under/rank/bioengineer,
+/obj/item/clothing/suit/storage/toggle/labcoat/bioengineer,
+/obj/item/clothing/suit/storage/toggle/labcoat/bioengineer,
+/obj/item/clothing/suit/storage/toggle/labcoat/bioengineer,
+/obj/item/clothing/shoes/reinforced/medical,
+/obj/item/clothing/shoes/reinforced/medical,
+/obj/item/clothing/shoes/reinforced/medical,
+/obj/item/clothing/head/soft/medical,
+/obj/item/clothing/head/soft/medical,
+/obj/item/clothing/head/soft/medical,
+/obj/item/storage/backpack/medical,
+/obj/item/storage/backpack/satchel/medical,
+/obj/item/storage/backpack/satchel/medical,
+/obj/item/storage/backpack/medical,
+/obj/item/storage/freezer/medical,
+/obj/item/storage/freezer/medical,
+/obj/item/storage/freezer/medical,
+/obj/item/storage/belt/medical,
+/obj/item/storage/belt/medical,
+/obj/item/storage/belt/medical,
+/obj/item/taperoll/medical,
+/obj/item/taperoll/medical,
+/obj/item/storage/pouch/medical_supply,
+/obj/item/storage/pouch/medical_supply,
+/obj/item/storage/pouch/medical_supply,
+/turf/simulated/floor/tiled/white,
+/area/eris/medical/genetics)
 "msv" = (
 /obj/machinery/atmospherics/unary/heat_exchanger{
 	dir = 1
@@ -107765,7 +107825,6 @@
 	id_tag = "trading_dock";
 	name = "Trading Dock Airlock Controller";
 	pixel_y = -24;
-	tag_airlock_mech_sensor = null;
 	tag_airpump = "trading_port_airlock_pump";
 	tag_chamber_sensor = "trading_port_airlock_sensor";
 	tag_exterior_door = "trading_port_airlock_exterior";
@@ -108143,6 +108202,10 @@
 	},
 /turf/simulated/floor/tiled/dark/gray_platform,
 /area/eris/maintenance/section3deck5starboard)
+"ooX" = (
+/obj/machinery/door/window/eastright,
+/turf/simulated/floor/tiled/dark/gray_platform,
+/area/eris/maintenance/section3deck5starboard)
 "opo" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/glass,
@@ -108395,6 +108458,11 @@
 	},
 /turf/simulated/floor/tiled/dark/techfloor,
 /area/eris/quartermaster/hangarsupply)
+"oNr" = (
+/obj/structure/table/standard,
+/obj/machinery/chemical_dispenser/admin,
+/turf/simulated/floor/tiled/white/brown_platform,
+/area/eris/medical/chemistry)
 "oTl" = (
 /obj/structure/table/glass,
 /obj/item/storage/freezer/medical,
@@ -108540,7 +108608,6 @@
 /obj/machinery/airlock_sensor{
 	id_tag = "trading_port_airlock_sensor";
 	name = "Trading Port Airlock Sensor";
-	pixel_x = 0;
 	pixel_y = 26
 	},
 /turf/simulated/floor/tiled/steel,
@@ -109098,8 +109165,7 @@
 /obj/machinery/power/apc{
 	dir = 8;
 	name = "West APC";
-	pixel_x = -28;
-	pixel_y = 0
+	pixel_x = -28
 	},
 /obj/structure/cable/green,
 /turf/simulated/floor/tiled/steel/bluecorner,
@@ -109117,8 +109183,7 @@
 	dir = 4
 	},
 /obj/machinery/light{
-	dir = 4;
-	icon_state = "tube1"
+	dir = 4
 	},
 /turf/simulated/floor/tiled/steel,
 /area/eris/crew_quarters/fitness)
@@ -109423,13 +109488,6 @@
 /obj/machinery/vending/snack,
 /turf/simulated/floor/tiled/steel/bar_light,
 /area/eris/crew_quarters/bar)
-"uaP" = (
-/obj/machinery/light{
-	dir = 4;
-	icon_state = "tube1"
-	},
-/turf/simulated/floor/tiled/steel,
-/area/eris/crew_quarters/fitness)
 "ubu" = (
 /obj/machinery/holomap{
 	pixel_y = 32
@@ -109530,6 +109588,10 @@
 	},
 /turf/simulated/floor/tiled/steel/monofloor,
 /area/eris/quartermaster/hangarsupply)
+"usy" = (
+/obj/structure/reagent_dispensers/cahorsbarrel,
+/turf/simulated/floor/wood,
+/area/eris/neotheology/storage)
 "usY" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
@@ -110057,9 +110119,7 @@
 	pixel_y = 26
 	},
 /obj/machinery/light{
-	dir = 8;
-	icon_state = "tube1";
-	pixel_y = 0
+	dir = 8
 	},
 /turf/simulated/floor/tiled/steel,
 /area/eris/crew_quarters/sleep_male/toilet_male)
@@ -110257,9 +110317,7 @@
 /obj/structure/table/reinforced,
 /obj/machinery/button/remote/blast_door{
 	id = "trading_lockddown";
-	name = "Trading Dock Lockdown Control";
-	pixel_x = 0;
-	pixel_y = 0
+	name = "Trading Dock Lockdown Control"
 	},
 /turf/simulated/floor/tiled/steel/bluecorner,
 /area/eris/security/checkpoint/supply)
@@ -110271,6 +110329,10 @@
 	},
 /turf/simulated/floor/tiled/steel/gray_perforated,
 /area/eris/engineering/long_range_scanner)
+"xEq" = (
+/obj/machinery/reagentgrinder/industrial,
+/turf/simulated/floor/tiled/white/brown_platform,
+/area/eris/medical/chemistry)
 "xGU" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
@@ -123467,7 +123529,7 @@ axu
 ayy
 azj
 avN
-bZP
+usy
 avK
 bkn
 avN
@@ -130535,7 +130597,7 @@ bsC
 arI
 aqU
 bzp
-avR
+ooX
 apn
 apn
 apn
@@ -130737,7 +130799,7 @@ bsC
 aZn
 btu
 bvs
-avR
+btu
 bCx
 bsL
 bvQ
@@ -131880,8 +131942,8 @@ aaR
 aba
 abC
 afy
-abS
-abS
+ipc
+hxl
 acG
 abS
 abS
@@ -246481,7 +246543,7 @@ awr
 dkH
 cDi
 cDi
-uaP
+euy
 cDi
 cmE
 cmE
@@ -250504,11 +250566,11 @@ dBR
 dBW
 dCu
 dtI
-lcL
+oNr
 dvs
 dEF
 dvs
-lcL
+xEq
 dtI
 dpn
 dpF
@@ -298588,12 +298650,12 @@ ekx
 ele
 eml
 enl
-enl
+mpE
 eoK
 eaT
 dmV
 dmV
-dmV
+jhZ
 eaT
 abF
 dXi

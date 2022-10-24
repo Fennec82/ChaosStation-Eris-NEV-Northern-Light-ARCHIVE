@@ -58,8 +58,15 @@
 
 /obj/item/clothing/suit/storage/toggle/labcoat/medspec
 	name = "medical specialist's labcoat"
-	desc = "A suit that protects against minor chemical spills. This one has marks of Aegis Security."
+	desc = "A suit that protects against minor chemical spills. This one has marks of Ironhammer Security."
 	icon_state = "labcoat_medspec_open"
 	item_state = "labcoat_medspec"
 	icon_open = "labcoat_medspec_open"
 	icon_closed = "labcoat_medspec"
+
+/obj/item/clothing/suit/storage/toggle/labcoat/bioengineer //Chaosstation add - port bio-eng from eris
+	name = "moebius bio-engineer labcoat"
+	desc = "A suit that protects against minor chemical spills. Has a red stripe on the shoulder."
+	icon_state = "labcoat_vir_open"
+	icon_open = "labcoat_vir_open"
+	icon_closed = "labcoat_vir"

@@ -31,7 +31,7 @@ var/const/AI				=(1<<8)
 var/const/CYBORG			=(1<<9)
 
 
-var/const/MEDSCI			=(1<<1)
+var/const/MEDSCI			=(1<<2)
 
 var/const/CSO				=(1<<0)
 var/const/SCIENTIST			=(1<<1)
@@ -41,6 +41,7 @@ var/const/DOCTOR			=(1<<4)
 var/const/PSYCHIATRIST		=(1<<5)
 var/const/ROBOTICIST		=(1<<6)
 var/const/PARAMEDIC			=(1<<7)
+var/const/BIOENGINEER		=(1<<8) //Chaosstation edit - Port bio-eng from Eris
 
 
 var/const/FIRSTOFFICER		=(1<<0)
