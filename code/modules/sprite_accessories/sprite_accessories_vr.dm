@@ -801,6 +801,8 @@
 
 	var/color_blend_mode = ICON_ADD // Only appliciable if do_coloration = 1
 	var/extra_overlay // Icon state of an additional overlay to blend in.
+	var/extra_overlay2 //Chaosstation edit - same as above
+	var/extra_overlay3 //Chaosstation edit - This is needed for the unique otie sprite.
 	var/show_species_tail = 0 // If false, do not render species' tail.
 	var/clothing_can_hide = 1 // If true, clothing with HIDETAIL hides it
 	var/desc = "You should not see this..."
@@ -1689,3 +1691,48 @@
 	ani_state = "tail_smooth_w"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
+
+//Chaosstation Virgo Ports be here
+
+/datum/sprite_accessory/tail/doublekitsunealt
+	name = "Kitsune 2 tails, colorable, alt"
+	desc = ""
+	icon_state = "doublekitsunealt"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+	extra_overlay = "doublekitsunealt-tips"
+
+/datum/sprite_accessory/tail/triplekitsune_colorable
+	name = "Kitsune 3 tails, colorable"
+	desc = ""
+	icon_state = "triplekitsune"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+	extra_overlay = "triplekitsune_tips"
+
+/datum/sprite_accessory/tail/sevenkitsune_colorable
+	name = "Kitsune 7 tails, colorable"
+	desc = ""
+	icon_state = "sevenkitsune"
+	extra_overlay = "sevenkitsune-tips"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+
+/datum/sprite_accessory/tail/ninekitsune_colorable
+	name = "Kitsune 9 tails, colorable"
+	desc = ""
+	icon_state = "ninekitsune"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+	extra_overlay = "ninekitsune-tips"
+
+/datum/sprite_accessory/tail/hideableninetails
+    name = "Kitsune 9-in-1 tail, colourable (vwag)"
+    desc = ""
+    icon_state = "ninekitsune"
+    extra_overlay = "ninekitsune-tips"
+    do_colouration = TRUE
+    color_blend_mode = ICON_MULTIPLY
+    ani_state = "foxtail_w"
+    extra_overlay_w = "foxtail-tips_w"
+//Chaosstation virgo ports end

@@ -477,3 +477,62 @@
 
 	msg_owner_grab_fail = "You step down onto %prey with one of your vines, forcing them onto the ground!"
 	msg_prey_grab_fail = "%owner steps down onto you with one of their vines, squishing you and forcing you onto the ground!"
+
+
+//Chaosstation Virgo Ports be here!
+
+/datum/sprite_accessory/tail/taur/drake //Enabling on request, no suit compatibility but then again see 2 above.
+	name = "Drake (Taur)"
+	icon_state = "drake_s"
+	extra_overlay = "drake_markings"
+//	suit_sprites = 'icons/mob/taursuits_drake_vr.dmi'
+//	icon_sprite_tag = "drake"
+//	can_loaf = TRUE // VOREStation Edit: Taur Loafing
+//	loaf_offset = 6 // VOREStation Edit: Taur Loafing
+
+/datum/sprite_accessory/tail/taur/fatdrake
+	name = "Drake (Fat Taur dual-color)"
+	icon_state = "fatdrake_s"
+	extra_overlay = "fatdrake_markings"
+//	icon_sprite_tag = "drake"
+
+/datum/sprite_accessory/tail/taur/lizard/fatlizard
+	name = "Fat Lizard (Taur)"
+	icon_state = "fatlizard_s"
+
+/datum/sprite_accessory/tail/taur/lizard/fatlizard_2c
+	name = "Fat Lizard (Taur, dual-color)"
+	icon_state = "fatlizard_s"
+	extra_overlay= "fatlizard_markings"
+
+/datum/sprite_accessory/tail/taur/skunk
+	name = "Skunk (Taur)"
+	icon_state = "skunk_s"
+	extra_overlay = "skunk_markings"
+	extra_overlay2 = "skunk_markings_2"
+//	icon_sprite_tag = "skunk"
+
+/datum/sprite_accessory/tail/taur/noodle
+	name = "Eastern Dragon (Taur)"
+	icon_state = "noodle_s"
+	extra_overlay = "noodle_markings"
+	extra_overlay2 = "noodle_markings_2"
+//	suit_sprites = 'icons/mob/taursuits_noodle_vr.dmi'
+//	clip_mask_state = "taur_clip_mask_noodle"
+//	icon_sprite_tag = "noodle"
+
+//Chaosstation virgo ports end
+
+//Chaosstation unique stuff here!
+/datum/sprite_accessory/tail/taur/fotie
+	name = "Fat Otie (Taur)"
+	icon = 'icons/mob/vore/taurs_cs.dmi'
+	icon_state = "fotie"
+	extra_overlay = "fotie_markings_2"
+	extra_overlay2 = "fotie_markings"
+	extra_overlay3 = "fotie_markings_3"
+//	suit_sprites = 'icons/mob/taursuits_otie_vr.dmi'
+//	icon_sprite_tag = "otie"
+	ckeys_allowed = list("riotscopez")
+
+//Chaosstation unique stuff end
