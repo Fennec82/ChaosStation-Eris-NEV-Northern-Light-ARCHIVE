@@ -6,7 +6,7 @@
 
 /obj/item/coreimplant_upgrade/cruciform/priest
 	name = "Preacher Ascension Kit"
-	desc = "The first stage of promoting a disciple into a Mekhane Preacher. Requires a ritual from an Inquisitor to complete."
+	desc = "The first stage of promoting a disciple into a Neotheology Preacher. Requires a ritual from an Inquisitor to complete."
 	implant_type = /obj/item/implant/core_implant/cruciform
 
 /obj/item/coreimplant_upgrade/cruciform/priest/set_up()

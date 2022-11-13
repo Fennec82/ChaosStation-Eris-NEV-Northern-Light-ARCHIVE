@@ -10,7 +10,7 @@
 
 /obj/machinery/neotheology/cloner
 	name = "SLT-73 Clonepod Prototype"
-	desc = "One of the more fruitful results of NT's investment in Lazarus, this baby puts a person back together from organic slurry just in a few minutes. Now with clear biomass fluids for all your gross anatomy viewing needs."
+	desc = "One of the more fruitful results of NT's investment in Moebius, this baby puts a person back together from organic slurry just in a few minutes. Now with clear biomass fluids for all your gross anatomy viewing needs."
 	icon = 'zzz_modular_eclipse/icons/obj/neotheology_machinery.dmi'
 	icon_state = "preview"
 	density = TRUE
@@ -345,7 +345,7 @@
 /////////////////////
 
 /obj/machinery/neotheology/biomass_container
-	name = "Lazarus' biomass container"
+	name = "Moebius' biomass container"
 	desc = "A barrel that makes strange noises, filled with a substance which at any time may become someone else's body."
 	icon_state = "biocan"
 	density = TRUE

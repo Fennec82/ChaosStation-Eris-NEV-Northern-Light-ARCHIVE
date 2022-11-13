@@ -2,7 +2,7 @@
 
 /obj/item/implant/core_implant/lesser_cruciform
 	name = "Cruciform Luminare"
-	desc = "This implant signifies one's Faith in the Mekhane, but not necessarily devotion."
+	desc = "This implant signifies one's Faith in the Neotheology, but not necessarily devotion."
 	icon = 'zzz_modular_eclipse/icons/obj/discount_cruciform.dmi'
 	icon_state = "lesser_on"
 	implant_type = /obj/item/implant/core_implant/lesser_cruciform

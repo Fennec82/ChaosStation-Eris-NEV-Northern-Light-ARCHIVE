@@ -207,7 +207,7 @@
 
 	//Security
 /obj/item/clothing/head/space/void/security
-	name = "aegis voidsuit helmet"
+	name = "Ironhammer voidsuit helmet"
 	desc = "A special helmet designed for work in a hazardous, low pressure environment. Sacrifices sight for protection."
 	icon_state = "ihsvoidhelm"
 	item_state = "ihsvoidhelm"
