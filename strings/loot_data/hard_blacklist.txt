@@ -301,6 +301,14 @@
 /obj/item/organ/external/robotic
 /obj/item/organ/external/robotic/limb
 /obj/item/organ/external/robotic/tiny
+/obj/item/organ/external/robotic/asters
+/obj/item/organ/external/robotic/serbian
+/obj/item/organ/external/robotic/frozen_star
+/obj/item/organ/external/robotic/technomancer
+/obj/item/organ/external/robotic/moebius
+/obj/item/organ/external/robotic/moebius/reinforced
+/obj/item/organ/external/robotic/excelsior
+/obj/item/organ/external/robotic/one_star
 /obj/item/organ/external/robotic/makeshift
 /obj/item/toy
 /obj/item/toy/prize
