@@ -27,7 +27,7 @@
 				"The Door phenomenon",
 				"Parallel world related mutations",
 				"Mass hallucinations or a breach from another world?",
-				"Aegis Security budget: evidence of S.A.U. overfund",
+				"Ironhammer Security budget: evidence of S.A.U. overfund",
 				"Real reason of One Star fall",
 				"Connection between One Star and dead alien civilizations, are we next?",
 				"Xavier Trasen - Personal File",

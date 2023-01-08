@@ -25,7 +25,7 @@
 //Aegis Cadet
 /obj/item/clothing/suit/storage/cadet_vest
 	name = "stab vest"
-	desc = "A light combat vest provided as standard protective gear to Aegis Cadets."
+	desc = "A light combat vest provided as standard protective gear to Ironhammer Cadets." //Chaos edit - IH
 	icon_state = "cadet_vest"
 	item_state = "cadet_vest"
 	blood_overlay_type = "armor"
