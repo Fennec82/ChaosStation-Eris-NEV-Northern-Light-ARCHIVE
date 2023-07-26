@@ -91,6 +91,7 @@ Your second loyalty is to your career with Moebius, and to your coworkers in bot
 							/datum/computer_file/program/camera_monitor)
 
 
+
 	description = "You are a highly educated professional doctor, working a placement aboard the CEV Eris to treat the injured.<br>\
 Your tasks will primarily keep you inside medbay, the place needs to have a doctor onsite at all times to treat incoming wounded. As a general rule, you should not leave medbay if you're the only one in it, make sure someone is covering for you if you go elsewhere.<br>\
 
@@ -237,6 +238,7 @@ Your second loyalty is to your career with Moebius, and to your coworkers in bot
 							/datum/computer_file/program/chem_catalog,
 							 /datum/computer_file/program/camera_monitor)
 
+
 	description = "You are a Moebius Paramedic, The hero of the hour! While doctors largely spend their time cloistered away in medbay, your job is to be out there on the frontlines. You work in the field, sometimes treating people on the spot, sometimes bringing them back to medical for specialist treatment. <br>\
 
 You have significant medical training, but typically you are not a doctor, and will most likely lack a medical degree. The actual doctors have seniority, and you should follow their orders, especially concerning treatment and diagnosis of a patient<br>\
@@ -251,24 +253,23 @@ This is the most dangerous part of your job, and recovery should only be attempt
 <br>\
 Character Expectations:<br>\
 Paramedic is a physically demanding job, your character must be fit and strong. No fat bodies allowed<br>\
-EVA training is expected, you should be confident in a medical Voidsuit, and optionally in driving an odysseus mech<br>\
+EVA training is expected, you should be confident in a medical Voidsuit, and optionally in driving an odysseus mech"
 
-Remember that you are a noncombatant. Any weapons you carry should be used for breaching and rescue, not for killing. Use violence only as a last resort to defend yourself or your patient"
-
-	duties = "	Respond to distress calls, extract wounded people from dangerous situations, stabilize them at the scene, and take them to medbay for farther treatment as necessary<br>\
+	duties = "Respond to distress calls, extract wounded people from dangerous situations, stabilize them at the scene, and take them to medbay for farther treatment as necessary<br>\
 	Watch the crew monitor for signs of injuries or deaths and respond accordingly.<br>\
 	Tour around departments checking up on the health of the crew. Administer first aid on scene as required<br>\
 	During quieter times, retrieve the corpses of the dead from around the ship<br>\
 	Run errands for the medbay staff, act as their hands outside of the medbay"
 
-	loyalties = "	As a medical specialist, your first loyalty is to save lives, you swore an oath to do no harm. When in any dangerous situation, do your best to ensure as many as possible come out of it alive. A martyr complex is not uncommon in paramedics<br>\
+	loyalties = "As a medical specialist, your first loyalty is to save lives, you swore an oath to do no harm. When in any dangerous situation, do your best to ensure as many as possible come out of it alive. A martyr complex is not uncommon in paramedics<br>\
 	<br>\
 	Your second loyalty is to your immediate superior, the Chief Medical Officer. Follow their instructions and policies."
 
 /obj/landmark/join/start/paramedic
-	name = "Paramedic"
+	name = "Paramedic" //Chaosstation edit - No Trauma Team
 	icon_state = "player-green"
 	join_tag = /datum/job/paramedic
+
 
 /datum/job/bioengineer //Chaosstation add - port bio-eng from eris
 	title = "Bio-Engineer"
@@ -323,3 +324,4 @@ Your second loyalty is to your career with Moebius, and to your coworkers in bot
 	name = "Moebius Bio-Engineer"
 	icon_state = "player-green"
 	join_tag = /datum/job/bioengineer
+
