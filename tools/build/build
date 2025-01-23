@@ -2,4 +2,7 @@
 set -e
 cd "$(dirname "$0")"
 exec ../bootstrap/node build.js "$@"
+<<<<<<< HEAD
 #Use Chmod command in git or a bash terminal of your choice if this file is showing anything other than 755 for file perms.  --Fennec82
+=======
+>>>>>>> parent of 2c103fb3e (Edits Build shell script so that it actualy works)
